@@ -25,6 +25,10 @@ end
 
 ### Compilation rules
 
+compile '/stylesheets/_*/' do
+  nil
+end
+
 compile '/stylesheets/*/' do
   filter :sass, Compass.sass_engine_options
 end
