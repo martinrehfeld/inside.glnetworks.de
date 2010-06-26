@@ -1,0 +1,15 @@
+=simple-vertical-gradient($color, $color-or-percentage: 10%, $ie: true, $start-pos: 0, $end-pos: 1)
+  $start-color: #000
+  $end-color: #fff
+  @if $color-or-percentage * 0 == #000
+    $end-color: $color-or-percentage
+    $start-color: $color
+    $color: mix($start-color, $end-color, 50%)
+  @else
+    $end-color: darken(saturate($color, $color-or-percentage / 2), $color-or-percentage)
+    $start-color: lighten(saturate($color, $color-or-percentage / 2), $color-or-percentage)
+  background: $color
+  background: -webkit-gradient(linear,0 0,0 100%,from($start-color),to($end-color))
+  background: -moz-linear-gradient(90deg,$end-color,$start-color)
+  @if $ie
+    filter: unquote("progid:DXImageTransform.Microsoft.Gradient(endColorstr=#{$end-color},startColorstr=#{$start-color})")

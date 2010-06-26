@@ -4,19 +4,68 @@
   %head
     %meta(charset="utf-8")
     %title= "GL Networks" << (@item[:title].blank? ? '' : "- #{@item[:title]}")
+    %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Atom 0.3', :href => '/articles.atom'}
     %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen, projection")
     %script{:type => "text/javascript", :src => "http://www.google.com/jsapi"}
     :javascript
       google.load("jquery", "1.4.2");
       google.load("feeds", "1");
-    
+      var disqus_developer = 1; // TODO: remove for production use!
+    %script{:type => "text/javascript", :src => "javascripts/site.js"}
+
   %body
-    #main
-      = yield
-    #sidebar
-      %h2 Documentation
-      %ul
-        %li
-          %a(href="http://nanoc.stoneship.org/docs/") Documentation
-        %li
-          %a(href="http://nanoc.stoneship.org/docs/3-getting-started/") Getting Started
+    #container
+      #header
+        .company GL Networks &mdash; vernetztes Consulting
+
+      %nav
+        = link_to 'Home', '/'
+        = link_to 'About', 'about'
+      #main
+        #content
+          - if @item[:kind] == 'article'
+            %h1
+              %a{:href => url_for(@item)} #{@item[:title]}
+              = yield
+              #disqus_thread
+              :javascript
+                var disqus_identifier = '#{@item.identifier}';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = 'http://glnetworks.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              %noscript
+                Please enable JavaScript to view the
+                %a(href="http://disqus.com/?ref_noscript=glnetworks") comments powered by Disqus.
+              %a(href="http://disqus.com" class="dsq-brlink")
+                blog comments powered by
+                %span(class="logo-disqus") Disqus
+          -else
+            = yield
+
+        #sidebar
+          %h2 Documentation
+          %ul
+            %li
+              %a(href="http://nanoc.stoneship.org/docs/") Documentation
+            %li
+              %a(href="http://nanoc.stoneship.org/docs/3-getting-started/") Getting Started
+
+      #footer
+        .site-info
+          %p &copy; GL Networks, 2010ff.
+
+  :javascript
+    (function() {
+      var links = document.getElementsByTagName('a');
+      var query = '?';
+      for(var i = 0; i < links.length; i++) {
+        if(links[i].href.indexOf('#disqus_thread') >= 0) {
+          query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+        }
+      }
+      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/glnetworks/get_num_replies.js' + query + '"></' + 'script>');
+    })();

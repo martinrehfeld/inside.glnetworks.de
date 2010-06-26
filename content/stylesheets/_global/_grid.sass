@@ -1,0 +1,25 @@
+@import 960/grid.sass
+
+#container
+  +grid-system(16)
+
+#header
+  +grid(16,16)
+
+nav
+  +grid(16,16)
+  
+#main
+  +grid(16,16)
+
+  #content
+    +grid(10,16)
+    +alpha
+    :min-height 100px
+
+  #sidebar
+    +grid(6,16)
+    +omega
+
+#footer
+  +grid(16,16)

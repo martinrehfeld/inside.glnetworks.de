@@ -1,0 +1,33 @@
+nav
+  position: relative
+  border-bottom: 1px $nav-color solid
+  margin-bottom: 20px
+  +pie-clearfix
+
+  a
+    border: 1px $nav-color solid
+    border-bottom: 0
+    color: lighten($nav-color, 30%)
+    float: left
+    font-weight: bold
+    font-size: 15px
+    margin-right: 5px
+    padding: 3px 10px
+    text-decoration: none
+    +border-top-radius(4px)
+    +simple-vertical-gradient(saturate(lighten($nav-color, 10%), 20%))
+    
+    &:hover
+      color: lighten($nav-color, 40%)
+      +simple-vertical-gradient(saturate(lighten($nav-color, 15%), 20%))
+    
+    &.current
+      color: darken($nav-color, 40%)
+      margin-bottom: -1px
+      padding-bottom: 4px
+      +simple-vertical-gradient(saturate(lighten($nav-color, 30%), 20%), #fff)
+    
+      &:hover
+        color: darken($nav-color, 50%)
+        +simple-vertical-gradient(saturate(lighten($nav-color, 20%), 20%), #fff)
+    

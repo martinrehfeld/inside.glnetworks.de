@@ -1,11 +1,21 @@
----
-is_hidden: true
----
-
-@import compass
-
 @import compass/utilities/general/reset
 @import compass
 +global-reset
+
+$use-mozilla-ellipsis-binding: true
+@import compass/utilities/text/ellipsis
+
+@import _lib/backgrounds
+@import fancy-buttons
+
+@import _config/colors
+
+@import 960/grid
+@import 960/text
+
+@import _global/links
+@import _global/navigation
+@import _global/grid
+@import _global/typography
 
 @import _layout/application

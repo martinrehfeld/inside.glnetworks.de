@@ -38,7 +38,7 @@ compile '*' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
   if ext == 'haml' || ext.nil?
-    filter :haml, :format => :html5, :attr_wrapper => '"'
+    filter :haml, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :kramdown
@@ -54,7 +54,6 @@ end
 
 
 ### Routing rules
-
 
 route '/stylesheets/_*/' do
   nil # skip stylesheet partials
@@ -78,4 +77,4 @@ end
 
 ### Layout rules
 
-layout '*', :haml, :format => :html5, :attr_wrapper => '"'
+layout '*', :haml, :attr_wrapper => '"'

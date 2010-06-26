@@ -1,2 +1,35 @@
-h1
-  font-size: 30px
+body
+  :background $background-color
+  :color $text-color
+
+#container
+  :overflow hidden
+
+#header
+  :padding
+    :top 20px
+  :position relative
+  .company
+    :float right
+    :margin-right 6px
+    +replace-text-with-dimensions("glnetworks-logo.gif")
+
+#heading
+  h1, h2, h3
+    :padding-top 3px
+    :font-size 1.8em
+    :font-weight bold
+    :color darken($nav-color, 25%)
+
+#footer
+  :color $footer-text-color
+  :margin
+    :left 10px
+    :right 10px
+  :padding-top 30px
+  
+  p
+    :margin 0
+
+.ellipsis
+  +ellipsis
