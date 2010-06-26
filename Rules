@@ -30,7 +30,7 @@ compile '/stylesheets/*/' do
 end
 
 compile '/layouts/*/' do
-  filter :haml, Compass.haml_engine_options
+  filter :haml
 end
 
 compile '*' do
@@ -55,14 +55,17 @@ end
 
 ### Routing rules
 
+
 route '/stylesheets/_*/' do
-  # don't output partials, so return nil
-  nil
+  nil # skip stylesheet partials
 end
 
 route '/stylesheets/*/' do
-  # don't generate a directory like we do for HTML files
   item.identifier.chop + '.css'
+end
+
+route '/sitemap/' do
+  item.identifier.chop + '.xml'
 end
 
 route '*' do
