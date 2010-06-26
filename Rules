@@ -64,6 +64,10 @@ route '/sitemap/' do
   item.identifier.chop + '.xml'
 end
 
+route '/atom/' do
+  '/articles.atom'
+end
+
 route '*' do
   item.identifier + 'index.html'
 end
