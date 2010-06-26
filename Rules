@@ -29,10 +29,6 @@ compile '/stylesheets/*/' do
   filter :sass, Compass.sass_engine_options
 end
 
-compile '/layouts/*/' do
-  filter :haml
-end
-
 compile '*' do
   # item[:extension] returns 'html.erb' for multi-dotted filename
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
