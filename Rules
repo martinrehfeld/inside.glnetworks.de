@@ -1,0 +1,74 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/” for the file
+#   “content/about.html”). To select all children, grandchildren, … of an
+#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
+#   because “*” matches zero or more characters.
+
+require 'compass'
+
+Compass.add_project_configuration('compass_config.rb')
+
+### Precproccessing rules
+
+preprocess do
+  # authors may unpublish items by setting meta attribute publish: false
+  items.delete_if { |item| item[:publish] == false }
+
+  copy_static
+end
+
+### Compilation rules
+
+compile '/stylesheets/*/' do
+  filter :sass, Compass.sass_engine_options
+end
+
+compile '/layouts/*/' do
+  filter :haml, Compass.haml_engine_options
+end
+
+compile '*' do
+  # item[:extension] returns 'html.erb' for multi-dotted filename
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'haml' || ext.nil?
+    filter :haml
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :kramdown
+  else
+    filter :erb
+  end
+
+  # use layouts with .html extension or layout specified in meta
+  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
+
+  layout(item[:layout] || 'default') unless item[:layout] == "none"
+end
+
+
+### Routing rules
+
+route '/stylesheets/_*/' do
+  # don't output partials, so return nil
+  nil
+end
+
+route '/stylesheets/*/' do
+  # don't generate a directory like we do for HTML files
+  item.identifier.chop + '.css'
+end
+
+route '*' do
+  item.identifier + 'index.html'
+end
+
+### Layout rules
+
+layout '*', :haml
