@@ -34,7 +34,7 @@ compile '*' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
   if ext == 'haml' || ext.nil?
-    filter :haml
+    filter :haml, :format => :html5, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :kramdown
@@ -70,4 +70,4 @@ end
 
 ### Layout rules
 
-layout '*', :haml
+layout '*', :haml, :format => :html5, :attr_wrapper => '"'
