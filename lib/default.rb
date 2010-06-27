@@ -74,3 +74,13 @@ def apply_filters_and_layout
   apply_filters
   apply_layout
 end
+
+# insert colorized code into markdown filtered content (use as block helper)
+def code(lang, &block)
+  source_code = capture(&block).strip
+  eval('_erbout', block.binding).concat <<-HTML
+{:nomarkdown}
+<pre class="CodeRay"><code class="language-#{lang}">#{source_code}</code></pre>
+{:/nomarkdown}
+  HTML
+end
