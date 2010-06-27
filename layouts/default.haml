@@ -25,9 +25,9 @@
         #content
           - case @item[:kind]
           - when 'article'
-            = render 'article_head', :article => @item
+            = render 'articles/header', :article => @item
             = yield # actual article content
-            = render 'article_comments', :article => @item
+            = render 'articles/comments', :article => @item
           - else
             = yield
         %aside
