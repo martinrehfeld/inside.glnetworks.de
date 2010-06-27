@@ -1,6 +1,6 @@
 !!! 5
 
-%html(lang="en")
+%html(lang="de")
   %head
     %meta(charset="utf-8")
     %title= "GL Networks" << (@item[:title].blank? ? '' : "- #{@item[:title]}")
@@ -24,7 +24,7 @@
 
   %body
     #container
-      #header
+      %header
         .company GL Networks &mdash; vernetztes Consulting
 
       %nav
@@ -52,14 +52,13 @@
             %a(href="http://disqus.com" class="dsq-brlink")
               blog comments powered by
               %span(class="logo-disqus") Disqus
-          -else
+          - else
             = yield
 
-        #sidebar
+        %aside
           #cse(style="width: 100%;") Lade Suche...
-      #footer
-        .site-info
-          %p &copy; GL Networks, 2010ff.
+      %footer
+        %p.site-info &copy; GL Networks, 2010ff.
 
   :javascript
     (function() {
