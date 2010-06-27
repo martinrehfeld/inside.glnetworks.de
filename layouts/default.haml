@@ -25,9 +25,10 @@
         #content
           - case @item[:kind]
           - when 'article'
-            = render 'articles/header', :article => @item
-            = yield # actual article content
-            = render 'articles/comments', :article => @item
+            %article
+              = render 'articles/header', :article => @item
+              = yield # actual article content
+              = render 'articles/comments', :article => @item
           - else
             = yield
         %aside
@@ -45,7 +46,7 @@
         options.setAutoComplete(true);
         customSearchControl.draw('cse', options);
       }, true);
-  
+
       (function() {
         var links = document.getElementsByTagName('a');
         var query = '?';
