@@ -35,23 +35,23 @@
           - if @item[:kind] == 'article'
             %h1
               %a{:href => url_for(@item)} #{@item[:title]}
-              = yield
-              #disqus_thread
-              :javascript
-                var disqus_identifier = '#{@item.identifier}';
-                (function() {
-                  var dsq = document.createElement('script');
-                  dsq.type = 'text/javascript';
-                  dsq.async = true;
-                  dsq.src = 'http://glnetworks.disqus.com/embed.js';
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-              %noscript
-                Please enable JavaScript to view the
-                %a(href="http://disqus.com/?ref_noscript=glnetworks") comments powered by Disqus.
-              %a(href="http://disqus.com" class="dsq-brlink")
-                blog comments powered by
-                %span(class="logo-disqus") Disqus
+            = yield
+            #disqus_thread
+            :javascript
+              var disqus_identifier = '#{@item.identifier}';
+              (function() {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = 'http://glnetworks.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+            %noscript
+              Please enable JavaScript to view the
+              %a(href="http://disqus.com/?ref_noscript=glnetworks") comments powered by Disqus.
+            %a(href="http://disqus.com" class="dsq-brlink")
+              blog comments powered by
+              %span(class="logo-disqus") Disqus
           -else
             = yield
 
