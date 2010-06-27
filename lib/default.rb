@@ -47,3 +47,30 @@ end
 def copy_static
   FileUtils.cp_r 'static/.', 'output/' 
 end
+
+def apply_filters
+  # item[:extension] returns 'html.erb' for multi-dotted filename
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'haml' || ext.nil?
+    filter :haml, :attr_wrapper => '"'
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :kramdown
+    filter :colorize_syntax, :coderay => { :line_numbers => :table }
+  else
+    filter :erb
+  end
+end
+
+def apply_layout
+  # use layouts with .html extension or layout specified in meta
+  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
+
+  layout(item[:layout] || 'default') unless item[:layout] == "none"
+end
+
+def apply_filters_and_layout
+  apply_filters
+  apply_layout
+end

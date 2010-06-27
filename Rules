@@ -19,6 +19,14 @@ Compass.add_project_configuration('compass_config.rb')
 preprocess do
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
+  
+  # set sensible defaults for article attributes
+  items.each do |item|
+    if item.identifier =~ %r(^/articles/)
+      item[:kind] ||= 'article'
+      item[:updated_at] ||= item.mtime
+    end
+  end
 
   copy_static
 end
@@ -33,24 +41,13 @@ compile '/stylesheets/*/' do
   filter :sass, Compass.sass_engine_options
 end
 
+compile '/articles/*/' do
+  item[:kind] ||= 'article'
+  apply_filters_and_layout
+end
+
 compile '*' do
-  # item[:extension] returns 'html.erb' for multi-dotted filename
-  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
-
-  if ext == 'haml' || ext.nil?
-    filter :haml, :attr_wrapper => '"'
-  elsif ext == 'md' || ext == 'markdown'
-    filter :erb
-    filter :kramdown
-    filter :colorize_syntax, :coderay => { :line_numbers => :table }
-  else
-    filter :erb
-  end
-
-  # use layouts with .html extension or layout specified in meta
-  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
-
-  layout(item[:layout] || 'default') unless item[:layout] == "none"
+  apply_filters_and_layout
 end
 
 
