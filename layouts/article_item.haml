@@ -1,6 +1,0 @@
-%article
-  %h1
-    %a{:href => url_for(@article)} #{@article[:title]}
-  %a.comment-count{:href => url_for(@article) + '#disqus_thread'} Comments
-
-  %p= @article[:excerpt] || @article.compiled_content(:snapshot => :pre)
