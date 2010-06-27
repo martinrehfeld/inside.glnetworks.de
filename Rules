@@ -68,8 +68,8 @@ route '/sitemap/' do
   item.identifier.chop + '.xml'
 end
 
-route '/atom/' do
-  '/articles.atom'
+route '/feed/atom/' do
+  item.identifier.chop + '.xml'
 end
 
 route '*' do
