@@ -42,7 +42,7 @@ compile '*' do
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :kramdown
-    filter :colorize_syntax
+    filter :colorize_syntax, :coderay => { :line_numbers => :table }
   else
     filter :erb
   end
