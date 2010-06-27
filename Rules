@@ -42,6 +42,7 @@ compile '*' do
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :kramdown
+    filter :colorize_syntax
   else
     filter :erb
   end
@@ -77,4 +78,4 @@ end
 
 ### Layout rules
 
-layout '*', :haml, :attr_wrapper => '"'
+layout '*', :haml, :attr_wrapper => '"', :ugly => true # :ugly is essential to have code blocks not further indented
