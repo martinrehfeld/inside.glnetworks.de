@@ -8,5 +8,5 @@ $('html').addClass($.browser.webkit ? 'webkit' : $.browser.msie ? 'trident' : $.
 
 // add class="Coderay" to <pre><code> blocks
 $(function() {
- $('pre').addClass('CodeRay');
+ $('pre + code').addClass('CodeRay');
 });
