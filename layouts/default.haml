@@ -1,15 +1,41 @@
 !!! 5
 
-%html(lang="de")
+%html(lang="en")
   %head
     %meta(charset="utf-8")
-    %title= "GL Networks" << (@item[:title].blank? ? '' : "- #{@item[:title]}")
+    %title= "GL Networks Inside" << (@item[:title].blank? ? '' : "- #{@item[:title]}")
     %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Atom 0.3', :href => '/feed/atom.xml'}
     %link(rel="stylesheet" href="http://www.google.com/cse/style/look/minimalist.css" type="text/css")
     %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen, projection")
     %script{:type => "text/javascript", :src => "http://www.google.com/jsapi"}
     :javascript
       google.load("jquery", "1.4.2");
+      var disqus_developer = 1; // TODO: remove for production use!
+    %script{:type => "text/javascript", :src => "javascripts/site.js"}
+
+  %body
+    #container
+      %header
+        .company GL Networks Inside &mdash; the tech blog of GL Networks
+
+      %nav
+        = link_to 'Home', '/'
+        = link_to 'About', '/about/'
+      #main
+        #content
+          - case @item[:kind]
+          - when 'article'
+            = render 'article_head', :article => @item
+            = yield # actual article content
+            = render 'article_comments', :article => @item
+          - else
+            = yield
+        %aside
+          #cse(style="width: 100%;") Lade Suche...
+      %footer
+        %p.site-info &copy; GL Networks, 2010ff.
+
+    :javascript
       google.load("feeds", "1");
       google.load('search', '1', {language : 'de'});
       google.setOnLoadCallback(function() {
@@ -19,55 +45,14 @@
         options.setAutoComplete(true);
         customSearchControl.draw('cse', options);
       }, true);
-      var disqus_developer = 1; // TODO: remove for production use!
-    %script{:type => "text/javascript", :src => "javascripts/site.js"}
-
-  %body
-    #container
-      %header
-        .company GL Networks &mdash; vernetztes Consulting
-
-      %nav
-        = link_to 'Home', '/'
-        = link_to 'About', '/about/'
-      #main
-        #content
-          - if @item[:kind] == 'article'
-            %h1
-              %a{:href => url_for(@item)} #{@item[:title]}
-            = yield
-            #disqus_thread
-            :javascript
-              var disqus_identifier = '#{@item.identifier}';
-              (function() {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = 'http://glnetworks.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-            %noscript
-              Please enable JavaScript to view the
-              %a(href="http://disqus.com/?ref_noscript=glnetworks") comments powered by Disqus.
-            %a(href="http://disqus.com" class="dsq-brlink")
-              blog comments powered by
-              %span(class="logo-disqus") Disqus
-          - else
-            = yield
-
-        %aside
-          #cse(style="width: 100%;") Lade Suche...
-      %footer
-        %p.site-info &copy; GL Networks, 2010ff.
-
-  :javascript
-    (function() {
-      var links = document.getElementsByTagName('a');
-      var query = '?';
-      for(var i = 0; i < links.length; i++) {
-        if(links[i].href.indexOf('#disqus_thread') >= 0) {
-          query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+  
+      (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
         }
-      }
-      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/glnetworks/get_num_replies.js' + query + '"></' + 'script>');
-    })();
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/glnetworks-inside/get_num_replies.js' + query + '"></' + 'script>');
+      })();

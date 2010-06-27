@@ -7,5 +7,3 @@
     at
     %span.posted_at= @article[:created_at]
     %a.comment-count{:href => url_for(@article) + '#disqus_thread'} Comments
-
-  = @article[:excerpt] || @article.compiled_content(:snapshot => :pre)
