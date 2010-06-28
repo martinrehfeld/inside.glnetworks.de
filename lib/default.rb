@@ -84,3 +84,12 @@ def code(lang, &block)
 {:/nomarkdown}
   HTML
 end
+
+# get a Hash with all article tags as keys and their frequency as value
+def tags
+  articles.map { |article| article[:tags] }.flatten.inject({}) { |frequency_map, tag|
+    frequency_map[tag] ||= 0
+    frequency_map[tag] += 1
+    frequency_map
+  }
+end

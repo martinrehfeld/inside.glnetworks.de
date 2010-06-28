@@ -1,5 +1,9 @@
 ---
 title: A Test Article
+tags:
+  - welcome
+  - sample
+  - test
 created_at: 2010-06-26 23:13:00
 ---
 

@@ -11,6 +11,7 @@
     :javascript
       google.load("jquery", "1.4.2");
       var disqus_developer = 1; // TODO: remove for production use!
+    %script{:type => "text/javascript", :src => "javascripts/jquery.tagcloud.js"}
     %script{:type => "text/javascript", :src => "javascripts/site.js"}
 
   %body
@@ -33,6 +34,7 @@
           - else
             = yield
         %aside
+          = render 'tag_cloud'
           %ul.toc
             - sorted_articles.each do |article|
               %li.article-headline= render 'articles/header', :article => article
@@ -40,6 +42,12 @@
         %p.site-info &copy; GL Networks, 2010ff.
 
     :javascript
+      // style tagcloud
+      $('.tagcloud .tag').tagcloud({
+          size: {start: 10, end: 14, unit: "pt"},
+          color: {start: '#aaa', end: '#333'}
+      });
+      
       // Google AJAX site search
       google.load('search', '1', {language : 'en'});
       google.setOnLoadCallback(function() {
