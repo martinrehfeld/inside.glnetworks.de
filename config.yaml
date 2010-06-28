@@ -45,3 +45,5 @@ base_url: http://localhost:3000
 # base_url: http://www.glnetworks.de
 author_name: Martin Rehfeld
 author_uri: http://www.glnetworks.de
+
+articles_on_homepage: 5

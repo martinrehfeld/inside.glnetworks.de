@@ -1,0 +1,3 @@
+%ul.toc
+  - sorted_articles.first(@site.config[:articles_on_homepage]).each do |article|
+    %li.article-headline= render 'articles/header', :article => article
