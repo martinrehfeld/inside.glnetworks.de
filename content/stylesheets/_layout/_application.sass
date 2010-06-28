@@ -1,3 +1,6 @@
+@import coderay-overrides
+@import google-search-overrides
+
 body
   :background $background-color
   :color $text-color
@@ -9,10 +12,14 @@ header
   :padding
     :top 20px
   :position relative
+  :height 80px
   .company
-    :float right
-    :margin-right 6px
+    :float left
     +replace-text-with-dimensions("glnetworks-inside-logo.png")
+  .search
+    :float right
+    :padding-top 7px
+    :width 350px
 
 #heading
   h1, h2, h3
@@ -33,13 +40,3 @@ header
 
 .ellipsis
   +ellipsis
-  
-table.CodeRay
-  :margin-bottom 0
-
-pre.CodeRay
-  :background-color transparent
-  :border 0
-
-strong
-  :font-weight bold
