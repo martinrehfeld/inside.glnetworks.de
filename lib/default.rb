@@ -56,8 +56,8 @@ def apply_filters
     filter :haml, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
-    filter :colorize_syntax, :coderay => { :line_numbers => :table }
     filter :rdiscount
+    filter :colorize_syntax
   else
     filter :erb
   end

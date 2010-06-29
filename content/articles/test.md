@@ -33,6 +33,7 @@ And now some more:
 <% code 'ruby' do %>
 module Test2
 
+  # let's say we have this ultra-long comment line explaining in-depth why wo now have to call the module Test2 instead of Test and how this dramatically improved code expressiveness
   class Color < Vision
 
     def initialize(options = {})
