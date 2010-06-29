@@ -1,20 +1,36 @@
+body
+  :height 100%
+
 #container
   +grid-system(16)
+  :margin
+    :top 10px
+    :bottom 10px
+  :height 100%
 
 header
   +grid(16,16)
+  :float none
+  :display block
 
 #main
   +grid(16,16)
+  :float none
+  :display block
 
   #content
     +grid(10,16)
     +alpha
+    :display block
     :min-height 100px
 
   aside
     +grid(6,16)
     +omega
+    :display block
 
 footer
+  +clearfix
   +grid(16,16)
+  :float none
+  :display block

@@ -6,6 +6,7 @@ body
 
 #container
   :overflow visible
+  :background #fff
 
 header
   :padding
@@ -32,17 +33,19 @@ header
     :padding-top 3px
     :font-size 1.8em
     :font-weight bold
-    :color darken($nav-color, 25%)
+    :color darken($heading-color, 25%)
 
-#footer
+footer
   :color $footer-text-color
-  :margin
-    :left 10px
-    :right 10px
-  :padding-top 30px
+  :padding
+    :top 30px
+    :bottom 5px
   
   p
     :margin 0
 
 .ellipsis
   +ellipsis
+
+strong
+  :font-weight bold
