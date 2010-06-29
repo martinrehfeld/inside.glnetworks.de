@@ -1,5 +1,7 @@
 ---
 title: About
+changefreq: monthly
+priority: 0.1
 ---
 
 About
