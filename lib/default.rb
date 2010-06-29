@@ -56,8 +56,8 @@ def apply_filters
     filter :haml, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
-    filter :kramdown
     filter :colorize_syntax, :coderay => { :line_numbers => :table }
+    filter :rdiscount
   else
     filter :erb
   end
@@ -78,11 +78,7 @@ end
 # insert colorized code into markdown filtered content (use as block helper)
 def code(lang, &block)
   source_code = capture(&block).strip
-  eval('_erbout', block.binding).concat <<-HTML
-{:nomarkdown}
-<pre class="CodeRay"><code class="language-#{lang}">#{source_code}</code></pre>
-{:/nomarkdown}
-  HTML
+  eval('_erbout', block.binding).concat %Q(<pre class="CodeRay"><code class="language-#{lang}">#{html_escape source_code}</code></pre>)
 end
 
 # get a Hash with all article tags as keys and their frequency as value
