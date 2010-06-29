@@ -5,15 +5,17 @@ body
   :color $text-color
 
 #container
-  :overflow hidden
+  :overflow visible
 
 header
   :padding
     :top 20px
   :position relative
+  :overflow-x visible
   :height 80px
   .home
     :float left
+    :margin-left -80px
     +replace-text-with-dimensions("glnetworks-inside-logo.png")
   nav
     :float right
