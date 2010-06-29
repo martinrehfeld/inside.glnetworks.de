@@ -8,9 +8,8 @@
     %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Atom 0.3', :href => '/feed/atom.xml'}
     %link(rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css")
     %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen, projection")
-    %script{:type => "text/javascript", :src => "http://www.google.com/jsapi"}
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
     :javascript
-      google.load("jquery", "1.4.2");
       var disqus_developer = 1; // TODO: remove for production use!
     %script{:type => "text/javascript", :src => "/javascripts/jquery.tagcloud.js"}
     %script{:type => "text/javascript", :src => "/javascripts/site.js"}
@@ -49,6 +48,8 @@
           color: {start: '#aaa', end: '#333'}
       });
       
+    %script{:type => "text/javascript", :src => "http://www.google.com/jsapi"}
+    :javascript
       // Google AJAX site search
       google.load('search', '1', {language : 'en'});
       google.setOnLoadCallback(function() {
@@ -59,7 +60,8 @@
         options.setAutoComplete(true);
         customSearchControl.draw('cse', options);
       }, true);
-      
+
+    :javascript
       // Disqus comment counts
       (function() {
         var links = document.getElementsByTagName('a');
