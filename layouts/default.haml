@@ -1,7 +1,8 @@
 !!! 5
 
-%html(lang="en")
+%html(xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en")
   %head
+    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     %meta(charset="utf-8")
     %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
     %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Atom 0.3', :href => '/feed/atom.xml'}
