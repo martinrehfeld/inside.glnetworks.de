@@ -43,6 +43,22 @@ def route_path(item)
   url
 end
 
+# Create category/tag pages (uses layouts/category.haml
+def create_category_pages
+  tags.keys.each do |tag|
+    items << Nanoc3::Item.new(
+      "= render('category', :tag => '#{tag}')",
+      {
+        :title => "Category: #{tag}",
+        :changefreq => 'daily',
+        :priority => 0.4
+      },
+      "/categories/#{tag}/",
+      :binary => false
+    )
+  end
+end
+
 # Copy static assets outside of content instead of having nanoc3 process them.
 def copy_static
   FileUtils.cp_r 'static/.', 'output/' 
@@ -83,8 +99,7 @@ end
 
 # get a Hash with all article tags as keys and their frequency as value
 def tags
-  articles.map { |article| article[:tags] }.flatten.inject({}) { |frequency_map, tag|
-    frequency_map[tag] ||= 0
+  articles.map { |article| article[:tags] }.flatten.compact.inject(Hash.new(0)) { |frequency_map, tag|
     frequency_map[tag] += 1
     frequency_map
   }

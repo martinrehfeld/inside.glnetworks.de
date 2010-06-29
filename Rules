@@ -27,6 +27,8 @@ preprocess do
       item[:updated_at] ||= item.mtime
     end
   end
+  
+  create_category_pages
 
   copy_static
 end

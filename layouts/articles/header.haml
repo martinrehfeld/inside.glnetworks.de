@@ -1,4 +1,4 @@
-%h1
+- haml_tag(@headline_tag || 'h1') do
   %a{:href => url_for(@article)} #{@article[:title]}
 .metadata
   Posted by
