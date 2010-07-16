@@ -44,7 +44,6 @@ compile '/stylesheets/*/' do
 end
 
 compile '/articles/*/' do
-  item[:kind] ||= 'article'
   apply_filters_and_layout
 end
 
