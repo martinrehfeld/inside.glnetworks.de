@@ -24,7 +24,7 @@
           %a.about(href="/" title="Imprint and legal terms") About
 
       #main
-        #content
+        %section#content
           #cse(style="width:100%;")
           - case @item[:kind]
           - when 'article'
@@ -34,7 +34,7 @@
               = render 'articles/comments', :article => @item
           - else
             = yield
-        %aside
+        %section#sidebar
           = render 'tag_cloud'
           = render 'articles/toc_latest'
 
