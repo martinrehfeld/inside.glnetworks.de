@@ -6,9 +6,7 @@ TODO
 * make it personal -- this is my blog after all
 * Contact page (get in touch)
 * Readme
-* add keyword + description headers
-    %meta(name="keywords" content="#{keywords}") # list all tags here
-    %meta(name="description" content="#{@item[:excerpt]}") # unless @item[:excerpt].blank?
+@item[:excerpt].blank?
 * rake publish task
 * style the beast
 
@@ -30,3 +28,6 @@ Done
 ----
 * Feedburner integration
   ok: just set new feed source on Feedburner to /feed/atom.xml
+* add keyword + description headers
+    %meta(name="keywords" content="#{keywords}") # list all tags here
+    %meta(name="description" content="#{@item[:excerpt]}") # unless

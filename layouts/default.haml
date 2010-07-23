@@ -4,10 +4,16 @@
   %head
     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     %meta(charset="utf-8")
-    %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
+    %meta(name="keywords" content="#{keywords}")
+    %meta(name="description" content="#{description}")
+    %meta(name="Author" content="Martin Rehfeld")
+    %meta(name="Copyright" content="GL Networks")
+    %meta(name="Content-language" content="en")
+    %meta(name="language" content="en")
     %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/GLNetworksInside")
     %link(rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css")
     %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen, projection")
+    %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
     %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
     :javascript
       var disqus_developer = 1; // TODO: remove for production use!

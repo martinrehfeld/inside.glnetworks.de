@@ -45,5 +45,17 @@ base_url: http://localhost:3000
 # base_url: http://www.glnetworks.de
 author_name: Martin Rehfeld
 author_uri: http://www.glnetworks.de
+default_keywords:
+  - technical background
+  - tips
+  - stories
+  - networked consulting
+  - development
+  - Web
+  - Ruby
+  - Ruby on Rails
+  - GL Networks
+  - Martin Rehfeld
+default_description: "GL Networks Inside provides technical background, news and stories related to the work of GL Networks - networked consulting services and IT solutions since 1992, http://www.glnetworks.de"
 
 articles_on_homepage: 5

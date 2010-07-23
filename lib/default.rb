@@ -104,3 +104,13 @@ def tags
     frequency_map
   }
 end
+
+# get keywords for <meta>
+def keywords
+  @site.config[:default_keywords].join(', ')
+end
+
+# get description for <meta>
+def description
+  @item[:excerpt] || @site.config[:default_description]
+end
