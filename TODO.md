@@ -5,8 +5,6 @@ TODO
 ----
 * make it personal -- this is my blog after all
 * Contact page (get in touch)
-* Readme
-@item[:excerpt].blank?
 * rake publish task
 * style the beast
 
@@ -31,3 +29,4 @@ Done
 * add keyword + description headers
     %meta(name="keywords" content="#{keywords}") # list all tags here
     %meta(name="description" content="#{@item[:excerpt]}") # unless
+* README
