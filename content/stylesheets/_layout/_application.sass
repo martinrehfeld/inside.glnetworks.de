@@ -1,24 +1,16 @@
-@import google-search-overrides
-
 body
   :background $background-color
   :color $text-color
-
-#container
-  :overflow visible
-  :background #fff
 
 header
   :padding
     :top 20px
   :position relative
-  :overflow-x visible
   :height 80px
   .home
     :float left
-    :margin-left -80px
     +replace-text-with-dimensions("glnetworks-inside-logo.png")
-  nav
+  nav.main
     :float right
     :padding
       :top 10px
@@ -31,7 +23,7 @@ header
 #heading
   h1, h2, h3
     :padding-top 3px
-    :font-size 1.8em
+    :font-size 1.5em
     :font-weight bold
     :color darken($heading-color, 25%)
 
@@ -40,7 +32,7 @@ footer
   :padding
     :top 30px
     :bottom 5px
-  
+
   p
     :margin 0
 

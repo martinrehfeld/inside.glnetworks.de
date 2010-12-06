@@ -2,18 +2,27 @@
 
 %html(xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en")
   %head
-    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     %meta(charset="utf-8")
+    %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
+    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %meta(name="keywords" content="#{keywords}")
     %meta(name="description" content="#{description}")
     %meta(name="Author" content="Martin Rehfeld")
     %meta(name="Copyright" content="GL Networks")
     %meta(name="Content-language" content="en")
     %meta(name="language" content="en")
+
     %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/GLNetworksInside")
+
     %link(rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css")
-    %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen, projection")
-    %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
+    %link(rel="stylesheet" href="/stylesheets/1140.css" type="text/css" media="screen")
+    /[if lte IE 9]
+      %link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+    %link(rel="stylesheet" href="/stylesheets/smallerscreen.css" media="only screen and (max-width: 1023px)")
+    %link(rel="stylesheet" href="/stylesheets/mobile.css" media="handheld, only screen and (max-width: 767px)")
+    %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen")
+
     %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
     :javascript
       var disqus_developer = 1; // TODO: remove for production use!
@@ -21,17 +30,17 @@
     %script{:type => "text/javascript", :src => "/javascripts/site.js"}
 
   %body
-    #container
+    .container
       %header
         %a.home(href="/" rel="start") GL Networks Inside &mdash; the tech blog of GL Networks
         #cse-search-form.search
-        %nav
+        %nav.main
           %a.blog(href="/" rel="index" title="Start page of inside.glnetworks.de") Home
           %a.company(href="http://www.glnetworks.de" rel="friend" rev="friend" title="Visit the company presentation of GL Networks (German only)") GL Networks
           %a.about(href="/about/" rel="licence" title="Imprint and legal terms") About
 
-      #main
-        %section#content
+      #main.row
+        %section#content.eightcol
           #cse(style="width:100%;")
           - case @item[:kind]
           - when 'article'
@@ -41,11 +50,11 @@
               = render 'articles/comments', :article => @item
           - else
             = yield
-        %section#sidebar
+        %section#sidebar.fourcol.last
           = render 'tag_cloud'
           = render 'articles/toc_latest'
 
-      %footer
+      %footer.row
         %p.site-info &copy; Copyright GL Networks, 2006-#{Date.today.year}. All rights reserved.
 
     :javascript
@@ -54,7 +63,7 @@
           size: {start: 10, end: 14, unit: "pt"},
           color: {start: '#aaa', end: '#333'}
       });
-      
+
     %script{:type => "text/javascript", :src => "http://www.google.com/jsapi"}
     :javascript
       // Google AJAX site search
