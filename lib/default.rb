@@ -17,13 +17,13 @@ require 'fileutils'
 #
 # If the output file does not end with an .html extension, item[:layout] is set to 'none'
 # bypassing the use of layouts.
-# 
+#
 def route_path(item)
   # in-memory items have not file
   return item.identifier + "index.html" if item[:content_filename].nil?
-  
+
   url = item[:content_filename].gsub(/^content/, '')
- 
+
   # determine output extension
   extname = '.' + item[:extension].split('.').last
   outext = '.haml'
@@ -35,7 +35,7 @@ def route_path(item)
     outext = '.html'
   end
   url.gsub!(extname, outext)
-  
+
   if url.include?('-')
     url = url.split('-').join('/')  # /2010/01/01-some_title.html -> /2010/01/01/some_title.html
   end
@@ -61,7 +61,7 @@ end
 
 # Copy static assets outside of content instead of having nanoc3 process them.
 def copy_static
-  FileUtils.cp_r 'static/.', 'output/' 
+  FileUtils.cp_r 'static/.', 'output/'
 end
 
 def apply_filters
@@ -81,7 +81,7 @@ end
 
 def apply_layout
   # use layouts with .html extension or layout specified in meta
-  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
+  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html'
 
   layout(item[:layout] || 'default') unless item[:layout] == "none"
 end
