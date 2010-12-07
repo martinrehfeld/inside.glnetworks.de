@@ -7,9 +7,9 @@ GEM
     coderay (0.9.3)
     compass (0.10.2)
       haml (>= 3.0.4)
-    compass-960-plugin (0.9.13)
-      compass (>= 0.10.0.rc3)
     cri (1.0.1)
+    eleven40 (1.2)
+      compass (>= 0.10.0.rc3)
     fancy-buttons (0.5.4)
       compass (>= 0.10.0)
       haml (>= 3.0.2)
@@ -29,7 +29,7 @@ DEPENDENCIES
   builder
   coderay (= 0.9.3)
   compass (= 0.10.2)
-  compass-960-plugin (= 0.9.13)
+  eleven40
   fancy-buttons (= 0.5.4)
   haml (= 3.0.12)
   nanoc3 (= 3.1.3)
