@@ -4,22 +4,23 @@ GEM
     adsf (1.0.1)
       rack (>= 1.0.0)
     builder (3.0.0)
-    coderay (0.9.3)
-    compass (0.10.2)
+    coderay (0.9.7)
+    compass (0.10.6)
       haml (>= 3.0.4)
     cri (1.0.1)
     eleven40 (1.2)
       compass (>= 0.10.0.rc3)
-    fancy-buttons (0.5.4)
-      compass (>= 0.10.0)
-      haml (>= 3.0.2)
-    haml (3.0.12)
-    nanoc3 (3.1.3)
+    fancy-buttons (1.0.6)
+      compass (= 0.10.6)
+    haml (3.0.25)
+    nanoc (3.1.6)
+      nanoc3 (>= 3.1.6)
+    nanoc3 (3.1.6)
       cri (>= 1.0.0)
     nokogiri (1.4.4)
     rack (1.2.1)
     rake (0.8.7)
-    rdiscount (1.6.5)
+    rdiscount (1.6.8)
 
 PLATFORMS
   ruby
@@ -27,13 +28,13 @@ PLATFORMS
 DEPENDENCIES
   adsf
   builder
-  coderay (= 0.9.3)
-  compass (= 0.10.2)
+  coderay
+  compass (= 0.10.6)
   eleven40
-  fancy-buttons (= 0.5.4)
-  haml (= 3.0.12)
-  nanoc3 (= 3.1.3)
+  fancy-buttons
+  haml
+  nanoc
   nokogiri
   rack
   rake
-  rdiscount (= 1.6.5)
+  rdiscount
