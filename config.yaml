@@ -44,9 +44,8 @@ deploy:
   default:
     bucket: inside.glnetworks.de
 
-# TODO: change to live URL in production
-base_url: http://localhost:3000
-# base_url: http://www.glnetworks.de
+base_url: http://inside.glnetworks.de
+
 author_name: Martin Rehfeld
 author_uri: http://www.glnetworks.de
 default_keywords:
