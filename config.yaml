@@ -40,6 +40,10 @@ data_sources:
     # same as the items root, but applies to layouts rather than items.
     layouts_root: /
 
+deploy:
+  default:
+    bucket: inside.glnetworks.de
+
 # TODO: change to live URL in production
 base_url: http://localhost:3000
 # base_url: http://www.glnetworks.de
