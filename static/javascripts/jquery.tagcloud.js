@@ -22,18 +22,18 @@
     return this.each(function() {
       weighting = $(this).attr("rel") - lowest;
       if (opts.size) {
-        $(this).css({"font-size": opts.size.start + (weighting * fontIncr) + opts.size.unit});        
+        $(this).css({"font-size": opts.size.start + (weighting * fontIncr) + opts.size.unit});
       }
       if (opts.color) {
         $(this).css({"color": tagColor(opts.color, colorIncr, weighting)});
       }
     })
   }
-  
+
   $.fn.tagcloud.defaults = {
     size: {start: 14, end: 18, unit: "pt"}
   };
-  
+
   // Converts hex to an RGB array
   function toRGB (code) {
     if (code.length == 4) {
@@ -72,11 +72,11 @@
     });
     return toHex(rgb);
   }
-  
+
   function compareWeights(a, b)
   {
     return a - b;
   }
-  
+
 
 })(jQuery);
