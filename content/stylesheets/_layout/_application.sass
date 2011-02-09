@@ -25,13 +25,6 @@ header
   .search
     :padding-top 11px
 
-#heading
-  h1, h2, h3
-    :padding-top 3px
-    :font-size 1.5em
-    :font-weight bold
-    :color darken($heading-color, 25%)
-
 #content
   article
     h1
@@ -46,12 +39,20 @@ header
       :margin-bottom 0
 
 #sidebar
+  .tagcloud
+    :margin-top 4px
+    :margin-bottom 24px
   .toc
     :margin-top 24px
     +no-bullets
     h1
+      :font-size 20px
+      :margin-bottom 24px
+    h2
+      :font-size 16px
       :margin-top 24px
       :margin-bottom 0
+
     .comment-count
       :display block
 
