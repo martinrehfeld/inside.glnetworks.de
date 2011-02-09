@@ -1,0 +1,358 @@
+---
+  layout: none
+  is_hidden: true
+---
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><base href="http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>jonathan barket dot com - Simple Associations with ext_scaffold</title><meta name="viewport" content="width=675" /><meta name="description" content="Jonathan Barket is a web application developer and professional photographer in Little Rock, Arkansas." /><meta name="keywords" content="little rock, arkansas, jonathan barket, jonathan, barket, ruby on rails, web application development, rails, ruby, photography" /><script src="external/CodeHighlighter/code_highlighter.js" type="text/javascript"></script><script src="external/CodeHighlighter/css.js" type="text/javascript"></script><script src="external/CodeHighlighter/html.js" type="text/javascript"></script><script src="external/CodeHighlighter/javascript.js" type="text/javascript"></script><script src="external/CodeHighlighter/ruby.js" type="text/javascript"></script><link rel="icon" href="avatar_ec3eb70dba29_16.png" /><link rel="alternate" type="application/rss+xml" title="RSS" href="http://jonathanbarket.com/rss" /><style type="text/css">* {
+                        margin: 0;
+                        padding: 0;
+                }
+
+                body {
+                        font: 86%/1.7em "Trebuchet MS", Verdana, sans-serif;
+                        color: #000;
+                        background: #0a0a0a url(http://www.sleepunit.com/tumblr/background.jpg) fixed no-repeat top center;
+                }
+
+
+                #container {
+                        width: 640px;
+                        margin: 0 auto;
+                        background-color: #fff;
+
+                }
+
+                #header {
+                        width: 640px;
+                        height: 176px;
+                        background: #fff url(http://www.sleepunit.com/tumblr/header.jpg) no-repeat top left;
+                }
+
+                #content {
+                        padding: 35px;
+                }
+
+                #footer {
+                        clear: both;
+                        width: 640px;
+                        height: 60px;
+                        background: #fff url(http://www.sleepunit.com/tumblr/footer.jpg) no-repeat top left;
+                }
+
+                a {
+                        color: #cc0000;
+                }
+
+                a:hover {
+                        text-decoration: none;
+                }
+
+                p {
+                        margin: 0 0 1em;
+                }
+
+                ol, ul {
+                        margin: 0 0 1em 2em;
+                }
+
+                a.permalink {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: -54px;
+                        background-color: #333;
+                        text-decoration: none;
+                        padding: 2px 6px;
+                        color: #fff;
+                }
+
+                a.permalink:hover {
+                        color: #cc0000;
+                }
+
+                .date {
+                        font-size: .9em;
+                        color: #333;
+                        line-height: 28px;
+                        height: 28px;
+                        padding: 7px 0 0;
+                        margin: 0 0 3em;
+                        background:  url('/themes/3/stripes.gif') top repeat-x;
+                        border-bottom: dotted 1px #bbb;
+                        text-transform: uppercase;
+                }
+
+                .post {
+                        margin: 0 0 4em;
+                        position: relative;
+                }
+
+                .post h1 {
+                        font-size: 1.8em
+                        color: #666;
+                        margin: 0 0 1em;
+                }
+
+                .post h1 a {
+                        color: #666;
+                        text-decoration: none;
+                }
+
+                /* Regular Post */
+                .post .regular blockquote {
+                        font-style: italic;
+                }
+
+                /* Photo Post */
+                .post .photo {
+                        padding: 18px;
+                        background-color: #ddd;
+                }
+
+                .post .photo img {
+                        border: solid 17px #bbb;
+                }
+
+                .post .caption {
+                        margin: 1em 35px 0;
+                }
+
+                /* Quote Post */
+                .post div.quote {
+                        padding: 0 30px;
+                }
+
+                .post div.quote span.quote {
+                        font-size: 2em;
+                        line-height: 1.3em;
+                        letter-spacing: -1px;
+                        color: #CC0000;
+                }
+
+                .post div.quote span.quote a {
+                        color: #c00;
+                }
+
+                .post div.quote span.quote big.quote {
+                        font-weight: bold;
+                        font-size: 60px;
+                        line-height: 0px;
+                        vertical-align: -28px;
+                        opacity: 0.5;
+                        -moz-opacity: 0.5;
+                        filter: alpha(opacity=50);
+                }
+
+                .post div.quote .source {
+                        text-align: right;
+                        font-size: 1.2em;
+                        color: #444;
+                }
+
+                .post div.quote .source a {
+                        color: #444;
+                }
+
+                /* Link Post */
+                .post .link a.link {
+                        font-size: 1.8em;
+                        color: #cc0000;
+                        text-decoration: none;
+                        line-height: 36px;
+                        font-variant: small-caps;
+                }
+
+                .post .link .description {
+                        margin: 1em 0 0;
+                }
+
+                /* Conversation Post */
+                .post .conversation ul {
+                        list-style-type:  none;
+                        margin:           0 0 5px;
+                        padding:          1px;
+                        border:           solid 5px #bbb;
+                }
+
+                .post .conversation ul li {
+                        font-size:        12px;
+                        padding:          4px 0px 4px 8px;
+                        color:            #f8f8f8;
+                }
+
+                .post .conversation ul li span.label {
+                        font-weight:      bold;
+                }
+
+                .post .conversation ul li.odd {
+                        background-color: #666;
+                }
+
+                .post .conversation ul li.even {
+                        background-color: #444;
+                }
+
+                /* Video Post */
+                .post .video {
+                        width:            500px;
+                        margin:           auto;
+                        padding:          35px;
+                        background-color: #444;
+                }
+
+                /* navigation */
+                #navigation a {
+                        text-decoration: none;
+                }
+
+                /* code highlighting */
+                pre {
+                        border: 1px solid #bbb;
+                        margin : 2em 0;
+                        padding : 1em;
+                        line-height: 1.5;
+                        overflow: auto;
+                        color: #000 !important;
+                        background-color: #efefef;
+                }
+
+                code {
+                        font-size: 1.2em;
+                }
+
+                .javascript .comment, .ruby .comment {
+                        color : green;
+                }
+
+                .javascript .string, .ruby .string {
+                        color : teal;
+                }
+
+                .javascript .keywords, .ruby .keywords {
+                        color : purple;
+                }
+
+                .javascript .global {
+                        color : blue;
+                }
+
+                .javascript .brackets, .ruby .brackets {
+                        color : navy;
+                }
+
+                .css .comment {
+                        color : gray;
+                }
+
+                .css .properties {
+                        color : navy;
+                }
+
+                .css .selectors {
+                        color : maroon;
+                        font-weight : bold;
+                }
+
+                .css .units {
+                        color :red;
+                }
+
+                .css .urls {
+                        color :green;
+                }
+
+                .html .tag {
+                        color : purple;
+                }
+
+                .html .comment {
+                        color : gray;
+                        font-style: italic;
+                }
+
+                .html .string {
+                        color : navy;
+                }
+
+                .html .doctype {
+                        color : teal;
+                }
+
+
+                </style></head><body><div style="margin:-1px -1px 0;padding:0;border:1px solid #999;background:#fff"><div style="margin:12px;padding:8px;border:1px solid #999;background:#ddd;font:13px arial,sans-serif;color:#000;font-weight:normal;text-align:left">Dies ist der Cache von Google von <a href="http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold" style="text-decoration:underline;color:#00c">http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold</a>. Es handelt sich dabei um ein Abbild der Seite, wie diese am 30. Okt. 2009 09:42:15 GMT angezeigt wurde. Die <a href="http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold" style="text-decoration:underline;color:#00c">aktuelle Seite</a> sieht mittlerweile eventuell anders aus. <a href="http://www.google.com/intl/de/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Weitere Informationen</a><br /><br /><div style="float:right"><a href="http://209.85.129.132/search?q=cache:yUb06r_7R7gJ:jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold+simple+associations+with+ext-scaffold&amp;hl=de&amp;client=safari&amp;strip=1" style="text-decoration:underline;color:#00c">Nur-Text-Version</a></div><div>Diese Suchbegriffe sind markiert: <span style="background:#ffff66;color:black;font-weight:bold">simple</span> <span style="background:#a0ffff;color:black;font-weight:bold">associations</span> <span style="background:#ff9999;color:black;font-weight:bold">extscaffold</span>
+</div>
+</div></div><div style="position:relative"><!-- iPhone --><script src="external/CodeHighlighter/clean_tumblr_pre.js" type="text/javascript"></script><div id="container"><div id="header">
+</div><div id="content"><div class="date">February 16th, 2009
+</div><div class="post"><a class="permalink" href="http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold">+</a><div class="regular"><h1><a href="http://jonathanbarket.com/post/78831424/simple-associations-with-ext-scaffold"><b style="color:black;background-color:#ffff66">Simple</b> <b style="color:black;background-color:#a0ffff">Associations</b> with ext_scaffold</a></h1><p>In my last post I went into the decision making process that led me to ExtJS and the joy that is <a href="http://github.com/martinrehfeld/ext_scaffold/tree/master" target="_blank">ext_scaffold</a>. The first real mystery I faced using it came when I needed some <b style="color:black;background-color:#ffff66">simple</b> <b style="color:black;background-color:#a0ffff">associations</b>. Thankfully, Martin sent me a diff that allowed me to wrap my head around the process. Now, I’m going to attempt to pass this knowledge on in a more descriptive way.
+</p><p>Let’s assume for the sake of this example that you’ve used ext_scaffold to generate two models: <code>Manufacturers</code> and <code>Countries</code>. Keep in mind that I use a lot of the wonderful Rails aliases from <a href="http://www.peepcode.com" target="_blank">Peepcode</a>, so <code>sg</code> may be <code>script/generate</code> for you.
+</p><pre><code class="ruby">sg ext_scaffold Manufacturer nam<span class="symbol">e:string</span> country_i<span class="symbol">d:integer</span>
+sg ext_scaffold Country nam<span class="symbol">e:string</span></code></pre><p>Now we need to setup our <b style="color:black;background-color:#a0ffff">associations</b> in our models as such:
+</p><pre><code class="ruby"><span class="comment"># app/models/manufacturer.rb</span>
+<span class="keywords">class</span> Manufacturer &lt; ActiveRecord::Base
+  belongs_to<span class="symbol"> :country</span>
+
+  <span class="keywords">def</span> country_name
+    country &amp;&amp; country.name
+  <span class="keywords">end</span>
+<span class="keywords">end</span>
+
+<span class="comment"># app/models/country.rb</span>
+<span class="keywords">class</span> Country &lt; ActiveRecord::Base
+  has_many<span class="symbol"> :manufacturers</span>
+<span class="keywords">end</span>
+</code></pre><p>The one addition to our standard Rails setup is <code>country_name</code>. This instance method returns the humanized value for our associated model. In other words, it’s what we want to show up in the grid. If we were listening articles instead of countries, it might be <code>article &amp;&amp; article.title</code>.
+</p><p>Next, we need to collect an appropriately formatted list of <code>Countries</code> that <code>Manufacturers</code> can belong to. Open up <code>views/manufacturers/index.html.erb</code> and make the following adjustment:
+</p><pre><code class="ruby">items: new <b style="&lt;span" class="string">"color:black;background-color:#99ff99">ExtScaffold</b>.Manufacturer<span class="brackets">(</span>{
+  countryNamesStore: &lt;%= Country.all.collect {
+    |c| [c.id, c.name] }.to_json %>,
+  url: <span class="string">'&lt;%= manufacturers_path %>'</span>
+  &lt;%= <span class="string">",baseParams: { #{request_forgery_protection_token}: '#{form_authenticity_token}' }"</span> <span class="keywords">if</span> protect_against_forgery? %>
+}<span class="brackets">)</span></code></pre><p>The new <code>countryNamesStore</code> we’ve added is a multidimensional array that contains the <code>id</code> and <code>name</code> for each <code>Country</code>. This information is going to be passed to an ExtJS combobox which takes the first parameter as the value and the second parameter as the text.
+</p><p>Here’s where it gets a little tricky. Fire up <code>public/javascripts/ext_scaffold/manufacturer.js</code>. We’re going to start by adding an additional field to our <code>Ext.data.JsonReader</code> that contains our virtual attribute <code>country_name</code>.
+</p><pre><code class="javascript">reader: <span class="keywords">new</span> Ext.data.JsonReader<span class="brackets">(</span>{
+  root: <span class="string">'manufacturers'</span>,
+  id: <span class="string">'id'</span>,
+  totalProperty: <span class="string">'results'</span>
+},[
+  { name: <span class="string">'id'</span>, mapping: <span class="string">'manufacturer.id'</span> },
+  { name: <span class="string">'manufacturer[name]'</span>, mapping: <span class="string">'manufacturer.name'</span> },
+  { name: <span class="string">'manufacturer[country_id]'</span>,
+    mapping: <span class="string">'manufacturer.country_id'</span>, type: <span class="string">'int'</span> },
+  { name: <span class="string">'virtual_attributes[country_name]'</span>,
+    mapping: <span class="string">'manufacturer.country_name'</span> }
+]<span class="brackets">)</span>,
+</code></pre><p>We also need to modify the <code>Ext.grid.ColumnModel</code> so it shows our virtual attribute rather than the actual <code>country_id</code>.
+</p><pre><code class="javascript"><span class="keywords">var</span> cm = <span class="keywords">new</span> Ext.grid.ColumnModel<span class="brackets">(</span>[
+  { id: <span class="string">'id'</span>, header: scaffoldPanel.labels[<span class="string">'id'</span>],
+    width: 40, dataIndex: <span class="string">'id'</span>},
+  { header: scaffoldPanel.labels[<span class="string">'manufacturer[name]'</span>],
+    dataIndex: <span class="string">'manufacturer[name]'</span> },
+  { header: <span class="string">'Country'</span>,
+    dataIndex: <span class="string">'virtual_attributes[country_name]'</span> }
+]<span class="brackets">)</span>;
+</code></pre><p>Take note that we <strong>replaced</strong> the <code>header</code> line for <code>country_id</code>, rather than simply adding a new one.
+</p><p>The last change for <code>manufacturer.js</code> is down where it defines the form panel. We’re going to change the fields defined in <code>items</code>.
+</p><pre><code class="javascript">items: [
+{ fieldLabel: scaffoldPanel.labels[<span class="string">'manufacturer[name]'</span>],
+  name: <span class="string">'manufacturer[name]'</span>, xtype: <span class="string">'textfield'</span> },
+{ fieldLabel: <span class="string">'Country'</span>, name:<span class="string">'virtual_attributes[country_name]'</span>,
+  hiddenName: <span class="string">'manufacturer[country_id]'</span>, xtype: <span class="string">'combo'</span>,
+  store: scaffoldPanel.countryNamesStore, triggerAction: <span class="string">'all'</span>,
+  forceSelection: <span class="keywords">true</span> }
+],</code></pre><p>Similarly, we’ve removed the form field for <code>country_id</code> and replaced it with a combobox populated by our <code>countryNamesStore</code>.
+</p><p>Finally, open up <code>manufacturers_controller.rb</code>. We’re going to modify the <code>index</code> action so that the <code>to_json</code> method will execute <code>country_name</code> and include its name and value in the response:
+</p><pre><code class="ruby"><span class="keywords">def</span> index
+  respond_to <span class="keywords">do</span> |format|
+    format.html     <span class="comment"># index.html.erb (no data required)</span>
+    format.ext_json { render<span class="symbol"> :json</span> =>  @manufacturers.to_ext_json<span class="brackets">(</span>:methods =><span class="symbol"> :country_name</span>,<span class="symbol"> :class</span> => Manufacturer,<span class="symbol"> :count</span> => Manufacturer.count<span class="brackets">(</span>options_from_search<span class="brackets">(</span>Manufacturer<span class="brackets">)</span><span class="brackets">)</span><span class="brackets">)</span> }
+  <span class="keywords">end</span>
+<span class="keywords">end</span></code></pre><p>It may seem like a lot of changes at first, but once you’ve been through the process and wrapped your brain around the concept, it should become very straightforward. If you haven’t already started using <a href="http://github.com/martinrehfeld/ext_scaffold/tree/master" target="_blank">ext_scaffold</a>, this should give you one less reason not to.
+</p></div></div><div id="navigation"></div></div><div id="footer">
+</div></div><script type="text/javascript">                        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                </script><script src="ga.js" type="text/javascript"></script> <script type="text/javascript">                        try {
+                                var pageTracker = _gat._getTracker("UA-6959048-1");
+                                pageTracker._trackPageview();
+                        } catch(err) {}
+                </script> <!-- BEGIN TUMBLR CODE --><iframe src="http://www.tumblr.com/dashboard/iframe?src=http%3A%2F%2Fjonathanbarket.com%2Fpost%2F78831424%2Fsimple-associations-with-ext-scaffold&amp;pid=78831424&amp;rk=Ca9OShTw" border="0" scrolling="no" width="324" height="25" allowtransparency="true" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="quant.js"></script><!-- END TUMBLR CODE -->
+</div></body></html>
