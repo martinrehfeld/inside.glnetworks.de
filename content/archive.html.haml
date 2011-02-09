@@ -1,8 +1,8 @@
---- 
+---
 title: Archive
 changefreq: daily
 priority: 0.4
 ---
 
 - sorted_articles.each do |article|
-  = render 'articles/header', :article => article
+  .article-headline= render 'articles/header', :article => article
