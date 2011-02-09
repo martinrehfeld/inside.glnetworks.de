@@ -19,9 +19,10 @@ preprocess do
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
 
-  # set sensible defaults for article attributes
+  # set sensible defaults for attributes
   items.each do |item|
-    if item.identifier =~ %r(^/articles/)
+    item[:is_hidden] = true if item.binary?
+    if item.identifier =~ %r(^/articles/) && !item.binary?
       item[:kind] ||= 'article'
       item[:updated_at] ||= item.mtime
     end
@@ -66,7 +67,11 @@ route '/feed/atom/' do
 end
 
 route '/articles/*/' do
-  item.identifier.sub(/^\/articles/,'') + 'index.html'
+  if item.binary?
+    item.identifier.sub(/^\/articles/,'').chop + '.' + item[:extension]
+  else
+    item.identifier.sub(/^\/articles/,'') + 'index.html'
+  end
 end
 
 route '*' do

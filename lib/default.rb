@@ -74,16 +74,17 @@ def apply_filters
     filter :erb
     filter :rdiscount
     filter :colorize_syntax
-  else
+  elsif !item.binary?
     filter :erb
   end
 end
 
 def apply_layout
-  # use layouts with .html extension or layout specified in meta
-  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html'
-
-  layout(item[:layout] || 'default') unless item[:layout] == "none"
+  unless item.binary?
+    # use layouts with .html extension or layout specified in meta
+    item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html'
+    layout(item[:layout] || 'default') unless item[:layout] == "none"
+  end
 end
 
 def apply_filters_and_layout
