@@ -1,5 +1,7 @@
 .gsc-control-cse
   :padding 0
+  :font-family $content-font-family !important
+  :font-size 14px !important
 
 .gsc-tabsArea
   :border 0
@@ -11,6 +13,28 @@
   :font-weight bold
   :color darken($heading-color, 25%) !important
 
+.gsc-completion-container
+  :font-family $content-font-family !important
+  :font-size 14px !important
+
 .gsc-cursor-box
   :margin-bottom 30px !important
-  
+
+.gsc-input
+  :height 18px
+
+.gs-title, a.gs-title
+  :font-family $heading-font-family
+  :font-size 16px
+  :line-height 20px
+  :color $link-color !important
+  :text-decoration none !important
+  &:hover
+    color: $link-hover-color !important
+    text-decoration: underline !important
+  b
+    :color $link-color !important
+    :text-decoration none !important
+
+.gs-visibleUrl
+  :display none !important
