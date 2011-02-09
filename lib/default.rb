@@ -53,7 +53,7 @@ def create_category_pages
         :changefreq => 'daily',
         :priority => 0.4
       },
-      "/categories/#{tag}/",
+      "/categories/#{tag.downcase.parameterize}/",
       :binary => false
     )
   end
