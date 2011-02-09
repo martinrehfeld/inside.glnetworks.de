@@ -9,7 +9,7 @@ created_at: 2009-01-28 12:00:00
 
 At one point I spotted three members of the <a href="http://www.rug-b.com/">Berlin crew (RUG-B aka Ruby Users Group Berlin)</a> committing to <a href="http://www.rubyonrails.org/">Rails</a>:
 
-<a href="Berlin Rails Committer.png" border="0" title="Rails committers at the end of 2008"><img src="Berlin Rails Committer Thumb.png" alt="Berlin Rails Committer Thumb.png" border="0" width="455" height="339" /></a>
+<a href="/2009/01/28/berlin-ruby-crew-hard-at-work-pushing-rails/Berlin Rails Committer.png" border="0" title="Rails committers at the end of 2008"><img src="/2009/01/28/berlin-ruby-crew-hard-at-work-pushing-rails/Berlin Rails Committer Thumb.png" alt="Berlin Rails Committer Thumb.png" border="0" width="455" height="339" /></a>
 <ul>
 <li><a href="http://www.paperplanes.de/">Mathias Meyer</a> has been working on the plugin generator (<a href="http://github.com/rails/rails/commit/7418d367f0ac4a4ac0ab4604c1b10db78efc6865">commit</a>),</li>
 <li><a href="http://www.artweb-design.de/">Sven Fuchs</a> was hard at work pushing the <a href="http://rails-i18n.org/">Internationalization (I18n) framework into Rails core</a></li>
