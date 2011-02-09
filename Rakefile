@@ -17,7 +17,7 @@ end
 
 desc "Run validations (fails when errors are found)"
 task :validate => :compile do
-  output = `rake validate:links`; puts output
+  output = `rake validate:links:internal`; puts output
   if output =~ /^Broken link/
     $stderr.puts 'Validation errors where found! ' +
                  'Task ABORTED!'
