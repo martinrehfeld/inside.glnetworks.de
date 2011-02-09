@@ -1,3 +1,3 @@
 %h1 All Posts Tagged as "#{@tag}"
 - items_with_tag(@tag).select { |item| item[:kind] == 'article' }.each do |article|
-  = render 'articles/header', :article => article, :headline_tag => 'h2'
+  .article-headline= render 'articles/header', :article => article, :headline_tag => 'h2'
