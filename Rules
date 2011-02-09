@@ -43,6 +43,10 @@ compile '/stylesheets/*/' do
   filter :sass, Compass.sass_engine_options
 end
 
+compile '/code/*/' do
+  nil
+end
+
 compile '*' do
   apply_filters_and_layout
 end
@@ -64,6 +68,10 @@ end
 
 route '/feed/atom/' do
   item.identifier.chop + '.xml'
+end
+
+route '/code/*/' do
+  item.identifier.chop + '.' + item[:extension]
 end
 
 route '/articles/*/' do
