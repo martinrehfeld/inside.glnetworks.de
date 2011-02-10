@@ -1,11 +1,15 @@
+---
+  layout: none
+  is_hidden: true
+---
 # = Wig-Wug
 # == Quest for the Treasured Ruby®
 #
 # Matz has lost the Treasured Ruby!  He has put together Operation Wig-Wug to find it again, and he is
 # offering the best Treasured Ruby hunter cold hard cash to help him find it.  The goal of Wig-Wug is
 # to beat your opponent's digger to the Treasured Ruby.  You will implement a class much like the Digger
-# class below, which will play the game for you.  The goal is to use the information provided by the 
-# game master to reach the Treasured Ruby in less turns that it takes your opponent.  It is played in 
+# class below, which will play the game for you.  The goal is to use the information provided by the
+# game master to reach the Treasured Ruby in less turns that it takes your opponent.  It is played in
 # a grid board, so you will know your coordinates and distances will be measured and presented as coordinate
 # pairs.
 #
@@ -20,7 +24,7 @@
 #   * Geegols and fleegols are much like venus fly traps and not able to move
 #   * Diggers are always placed equal distances from the Treasured Ruby but may have
 #     different configurations of fleegol and geegol placement
-# 
+#
 # === Game flow
 #
 # Each digger will be given a chance to move one space each turn.
@@ -29,14 +33,14 @@
 # only valid directions are "up", "down", "left", and "right".
 #
 # Each time you move, the game master will call +move!+ on your class, passing
-# in how far away you are from the Treasured Ruby as a coordinate array as the first argument 
-# and a matrix of the surrounding spaces as the second argument.  For example, 
+# in how far away you are from the Treasured Ruby as a coordinate array as the first argument
+# and a matrix of the surrounding spaces as the second argument.  For example,
 # if the surrounding spaces looked like this...
-# 
+#
 #   O O F
 #   G P O
 #   O O O
-#   
+#
 #   O = open space
 #   G = geegol
 #   F = fleegol
@@ -52,15 +56,15 @@
 #           ]
 #         )
 #
-# This signifies there is a fleegol to the NE, a geegol to the west, and you are 3 either 
-# east or west and 13 north or south of the Treasured Ruby.  
+# This signifies there is a fleegol to the NE, a geegol to the west, and you are 3 either
+# east or west and 13 north or south of the Treasured Ruby.
 #
 # * If you are at the game board edge, spaces are indicated by "E".  Touching one of these ends your game.
 # * The Treasured Ruby is signified by an "R".  You want to move on to it.
 # * You will not be able to see other players on the board, so don't worry!
 #
 # === A typical game turn
-# 
+#
 # 1. Game master calls move!([0,2], [["O", "O", "O"], ["O", "P", "F"], ["E", "E", "E"]])
 # 2. Digger class returns "up"
 # 3. Game master calls move!([2,0], [["E", "E", "E"], ["O", "P", "O"], ["O", "O", "G"]]) on opposing digger
@@ -79,10 +83,10 @@
 # Robotics Institute at Carnegie Mellon University [aaai96].
 
 class StarDigger
-  
+
   # provide accessor to digger name -- enable if needed
   # attr_reader :name
-  
+
   # debug = true will enable printout of known map and projected path after each move!
   def initialize(debug = false)
     @debug = debug
@@ -90,7 +94,7 @@ class StarDigger
     @map = DiggerMap.new(@player)
     @name = "Martin Rehfeld's StarDigger"
 
-    # obsolete as return value of initialize gets ignored, but adheres to the 
+    # obsolete as return value of initialize gets ignored, but adheres to the
     # interface spec of this competition ;-)
     return @name
   end
@@ -115,27 +119,27 @@ class StarDigger
     path = @map.path_to(@target)
     raise "No path to target available with matrix = #{matrix.inspect} and known map\n#{@map}" if path.nil?
     move = delta_to_move([path[1][0]-path[0][0], path[1][1]-path[0][1]])
-    
+
     @last_distance = distance
     @last_move = move
 
     move.to_s # return chosen move
   end
-  
+
 private
 
   def initialize_target_position(distance)
     @target ||= (0..1).collect{|i| FuzzyValue.new(@player[i]+distance[i],@player[i]-distance[i]) }
   end
-  
+
   def update_player_position!
     (0..1).each {|i| @player[i] += move_delta(@last_move)[i] } if @last_move
   end
-  
+
   def determine_treasure_position(s,distance)
     # seeing the treasure fully discloses its position, doesn't it ;-)
     if s.treasure_visible?
-      (0..1).each {|i| @target[i].determine_value(@player[i] + s.treasure[i])} 
+      (0..1).each {|i| @target[i].determine_value(@player[i] + s.treasure[i])}
       return
     end
 
@@ -167,7 +171,7 @@ private
       :up    => [ 0, -1],
       :down  => [ 0, +1] }[move.to_sym]
   end
-  
+
   def delta_to_move(delta)
     if delta[0] < 0
       :left
@@ -308,7 +312,7 @@ private
       end
 
       return nil
-    end   
+    end
 
     # a simple priority queue used internally by A*
     class PriorityQueue
@@ -390,7 +394,7 @@ private
         (x_coordinates.min..x_coordinates.max).each do |x|
           print_cell [x,y]
         end
-        print "\n" 
+        print "\n"
       end
     end
 
