@@ -23,7 +23,7 @@ WeatherTime is a screensaver to show graphical weather forecasts along with the 
 <strong>
 Installation</strong>
 <ul>
-	<li>For the 7.x series of Squeezecenter download <a href="/2006/03/11/weathertime-screensaver-plugin-for-slimserver/Plugins-WeatherTime-Plugin r152.zip" title="Plugins-WeatherTime-Plugin r152.zip">WeatherTime 2.2.1 (zip)</a> and visit the <a title="WeatherTime Project on Google Code" target="_blank" href="http://weathertime.googlecode.com">project's page on Googlecode</a> for further instructions.</li>
+	<li>For the 7.x series of Squeezecenter download <a href="/2006/03/11/weathertime-screensaver-plugin-for-slimserver/Plugins-WeatherTime-Plugin%20r152.zip" title="Plugins-WeatherTime-Plugin r152.zip">WeatherTime 2.2.1 (zip)</a> and visit the <a title="WeatherTime Project on Google Code" target="_blank" href="http://weathertime.googlecode.com">project's page on Googlecode</a> for further instructions.</li>
 	<li>For the 6.5 series of Slimserver download <a href="/2006/03/11/weathertime-screensaver-plugin-for-slimserver/weathertime_1_9_5.zip">WeatherTime 1.9.5 (zip)</a></li>
 	<li>Extract the archive into the 'Plugins' directory of your Slimserver installation</li>
 	<li>Restart Slimserver</li>
