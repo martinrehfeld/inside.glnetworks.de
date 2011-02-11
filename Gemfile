@@ -1,7 +1,9 @@
 source :rubygems
 
+gem 'heroku',                  :require => nil
 gem 'rake',                    :require => nil
 gem 'rack',                    :require => nil
+gem 'rack-contrib',            :require => nil
 gem 'adsf',                    :require => nil
 gem 'builder',                 :require => nil
 gem 'nokogiri',                :require => nil
