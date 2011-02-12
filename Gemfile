@@ -1,10 +1,10 @@
 source :rubygems
 
 group :development do
-  gem 'heroku',                  :require => nil
   gem 'spidr',                   :require => nil
   gem 'anemone',                 :require => nil
   gem 'rake',                    :require => nil
+  gem 'rack',                    :require => nil
   gem 'adsf',                    :require => nil
   gem 'builder',                 :require => nil
   gem 'nokogiri',                :require => nil
@@ -18,10 +18,4 @@ group :development do
   gem 'rdiscount',               :require => nil
   gem 'fancy-buttons',           :require => nil
   gem 'coderay',                 :require => nil
-end
-
-group :production do
-  gem 'rack',                    :require => nil
-  gem 'rack-contrib',            :require => nil
-  gem 'rack-rewrite',            :require => nil
 end
