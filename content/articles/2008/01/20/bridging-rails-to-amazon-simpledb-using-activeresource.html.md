@@ -45,5 +45,5 @@ AWS SDB Proxy adds a special <code>_resource</code> attribute, allowing storage 
 <div style="clear:left"><strong>Related Posts</strong></div>
 <ul>
 	<li><a href="/2007/12/15/amazon-simpledb-web-service-complementing-the-ec2-compute-cloud/">Amazon SimpleDB web service complementing the EC2 compute cloud</a></li>
-	<li><a href="/2007/04/06/amazon-ec2-the-future-of-rails-hosting/%22">Amazon EC2 - The Future of (Rails-) Hosting?</a></li>
+	<li><a href="/2007/04/06/amazon-ec2-the-future-of-rails-hosting/">Amazon EC2 - The Future of (Rails-) Hosting?</a></li>
 </ul>
