@@ -21,4 +21,5 @@ end
 group :production do
   gem 'rack',                    :require => nil
   gem 'rack-contrib',            :require => nil
+  gem 'rack-rewrite',            :require => nil
 end

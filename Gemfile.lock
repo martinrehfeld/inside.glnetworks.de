@@ -33,6 +33,7 @@ GEM
     rack (1.2.1)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
+    rack-rewrite (1.0.2)
     rake (0.8.7)
     rdiscount (1.6.8)
     rest-client (1.6.1)
@@ -57,5 +58,6 @@ DEPENDENCIES
   nokogiri
   rack
   rack-contrib
+  rack-rewrite
   rake
   rdiscount

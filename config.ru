@@ -1,17 +1,26 @@
 require 'rack'
 require 'rack/contrib'
+require 'rack/rewrite'
 
 module Rack
   # fix missing autoload
   autoload :TryStatic, 'rack/contrib/try_static'
 end
 
-use Rack::Deflater
-use Rack::ETag
+use Rack::Rewrite do
+  feedburner = 'http://feeds.feedburner.com/GLNetworksInside'
+  r301 '/feed', feedburner
+  r301 '/feed/', feedburner
+  r301 '/feed/atom', feedburner
+  r301 '/feed/atom/', feedburner
+end
 
 use Rack::ResponseHeaders do |headers|
   headers['Cache-Control'] = 'max-age=3600, public, must-revalidate'
 end
+
+use Rack::Deflater
+use Rack::ETag
 
 use Rack::TryStatic, :root => 'output',  # static files root dir
                      :urls => %w[/],     # match all requests
