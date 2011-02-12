@@ -2,6 +2,8 @@ source :rubygems
 
 group :development do
   gem 'heroku',                  :require => nil
+  gem 'spidr',                   :require => nil
+  gem 'anemone',                 :require => nil
   gem 'rake',                    :require => nil
   gem 'adsf',                    :require => nil
   gem 'builder',                 :require => nil
