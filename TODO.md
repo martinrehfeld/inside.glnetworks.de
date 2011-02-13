@@ -3,14 +3,14 @@ Issues & Tasks
 
 TODO
 ----
+* avoid duplicate meta descriptions (+keywords?)
 * make it personal -- this is my blog after all
 * Contact page (get in touch)
-* style the beast
+* improve styling (focus on header)
+* improve mobile style
 
 Can do
 ------
-* provide URL schema compatible with my legagy content (/YYYY/MM/DD/<slug>/)
-  -> this can be achieved relatively easily by using the same folder structure
 * (have separate project pages for the OS projects) -- might be a single page with references to other sites for now
 * code in external files and include them (--> let's me do syntax check et al)
 * Featured projects/articles -- whatever; in sidebar
@@ -32,6 +32,8 @@ Done
 ----
 * Feedburner integration
   ok: just set new feed source on Feedburner to /feed/atom.xml
+* provide URL schema compatible with my legagy content (/YYYY/MM/DD/<slug>/)
+  -> this can be achieved relatively easily by using the same folder structure
 * add keyword + description headers
     %meta(name="keywords" content="#{keywords}") # list all tags here
     %meta(name="description" content="#{@item[:excerpt]}") # unless
