@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 2.6.4-pl3
+- http://www.phpmyadmin.net
+-
+- Host: db485.1und1.de
+- Erstellungszeit: 13. Februar 2011 um 22:51
+- Server Version: 4.0.27
+- PHP-Version: 5.2.6-1+lenny9
+-->
+
+<!--
+- Datenbank: `db140151818`
+-->
+<db140151818>
+  <!-- Tabelle wp2_posts -->
+    <wp2_posts>
+        <ID>4</ID>
+        <post_author>2</post_author>
+        <post_date>2006-03-11 13:59:51</post_date>
+        <post_date_gmt>2006-03-11 12:59:51</post_date_gmt>
+        <post_content>Martin Rehfeld is blogging on GL Networks Inside about technical background, tools, tips, news and stories related to the work of &lt;em&gt;&lt;a title=&quot;GL Networks Company Site&quot; href=&quot;http://www.glnetworks.de&quot;&gt;GL Networks - networked consulting services and IT solutions since 1992&lt;/a&gt;.&lt;/em&gt;
+
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.workingwithrails.com/person/6641-martin-rehfeld&quot;&gt;Martin&lt;/a&gt; is passionate about &lt;a title=&quot;Ruby on Rails&quot; href=&quot;http://rubyonrails.org&quot;&gt;Ruby on Rails&lt;/a&gt;. He has published several Rails plugins and regularly gives talks at Rails related events. If you like Martin's work, &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;consider recommending him on Working With Rails&lt;/a&gt;.</post_content>
+        <post_title>Welcome!</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>welcome</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-26 16:11:29</post_modified>
+        <post_modified_gmt>2008-05-26 15:11:29</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2006/03/11/welcome/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>2</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-11 11:15:29</post_date>
+        <post_date_gmt>2006-03-11 10:15:29</post_date_gmt>
+        <post_content>This website is published by
+&lt;div class=&quot;vcard&quot;&gt;&lt;strong&gt;&lt;span class=&quot;org&quot;&gt;GL Networks&lt;/span&gt;&lt;/strong&gt;
+Inh. &lt;span class=&quot;fn&quot;&gt;Martin Rehfeld&lt;/span&gt;
+&lt;span class=&quot;adr&quot;&gt;&lt;span class=&quot;street-address&quot;&gt;BenekendorffstraÃe 40 B&lt;/span&gt;
+&lt;span class=&quot;postal-code&quot;&gt;13469&lt;/span&gt; &lt;span class=&quot;locality&quot;&gt;Berlin&lt;/span&gt;
+&lt;span class=&quot;country-name&quot;&gt;GERMANY&lt;/span&gt;&lt;/span&gt;
+Phone: &lt;span class=&quot;tel&quot;&gt;&lt;abbr class=&quot;type&quot; title=&quot;voice&quot;&gt;&lt;span class=&quot;value&quot;&gt;+49 30 45482-166&lt;/span&gt;&lt;/abbr&gt;&lt;/span&gt;
+E-Mail: &lt;a class=&quot;email&quot; href=&quot;mailto:info@glnetworks.de&quot;&gt;info@glnetworks.de&lt;/a&gt;
+Internet: &lt;a title=&quot;GL Networks Company Site&quot; class=&quot;url&quot; href=&quot;http://www.glnetworks.de/&quot;&gt;http://www.glnetworks.de&lt;/a&gt;&lt;/div&gt;
+Responsible for content according to german Â§ 10 Absatz 3 MDStV: Martin Rehfeld (address as above).
+
+&lt;strong&gt;Terms of Use&lt;/strong&gt;
+
+Information may be changed or updated without notice. We may also make improvements and/or changes in the products and/or the programs described in this information at any time without notice.
+
+We assume no responsibility regarding the accuracy of the information that is provided by us and use of such information is at the recipient's own risk. We provide no assurances that any reported problems may be resolved with the use of any information that we provide. By furnishing information, we do not grant any licenses to any copyrights, patents or any other intellectual property rights.
+
+We do not want to receive confidential or proprietary information from you through our Web site. Please note that any information or material sent to us will be deemed NOT to be confidential. By sending us any information or material, you grant us an unrestricted, irrevocable license to use, reproduce, display, perform, modify, transmit and distribute those materials or information, and you also agree that we are free to use any ideas, concepts, know-how or techniques that you send us for any purpose. However, we will not release your name or otherwise publicize the fact that you submitted materials or other information to us unless: (a) we obtain your permission to use your name; or (b) we first notify you that the materials or other information you submit to a particular part of this site will be published or otherwise used with your name on it; or (c) we are required to do so by law.
+
+We make no representations whatsoever about any other Web site which you may access through this one. When you access a Web site outside of inside.glnetworks.de, please understand that it is independent from us and that we have no control over the content on that Web site. In addition, a link to a Web site outside inside.glnetworks.de does not mean that we endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, trojan horses and other items of a destructive nature.
+
+IN NO EVENT WILL WE BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, SPECIAL OR OTHER CONSEQUENTIAL DAMAGES FOR ANY USE OF THIS WEB SITE, OR ON ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR INFORMATION HANDLING SYSTEM OR OTHERWISE, EVEN IF WE ARE EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+ALL INFORMATION IS PROVIDED BY US ON AN &quot;AS IS&quot; BASIS ONLY. WE PROVIDE NO REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT.
+
+We may at any time revise these terms by updating this posting. By using this web site, you agree to be bound by any such revisions and should therefore periodically visit this page to determine the then current terms to which you are bound.
+
+If you do not agree to these terms, do not use this web site.</post_content>
+        <post_title>About us</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>static</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>about</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-26 15:20:32</post_modified>
+        <post_modified_gmt>2008-05-26 14:20:32</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid></guid>
+        <menu_order>9</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>3</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-11 13:48:06</post_date>
+        <post_date_gmt>2006-03-11 12:48:06</post_date_gmt>
+        <post_content>Questions? Suggestions? Want to get in touch?
+
+Choose your favorite communication channel...
+
+Send an E-Mail: &lt;a href=&quot;mailto:info@glnetworks.de&quot;&gt;info@glnetworks.de&lt;/a&gt;
+Call: +49 30 45482-166
+</post_content>
+        <post_title>Contact</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>static</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>contact</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-26 12:59:52</post_modified>
+        <post_modified_gmt>2008-05-26 11:59:52</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/contact/</guid>
+        <menu_order>5</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>6</ID>
+        <post_author>2</post_author>
+        <post_date>2006-03-11 16:53:20</post_date>
+        <post_date_gmt>2006-03-11 15:53:20</post_date_gmt>
+        <post_content>Upgrade your network music player to a weather station now! Get the free WeatherTime Screensaver Plugin for Slimserver - brought to you by &lt;a title=&quot;GL Networks Inside&quot; href=&quot;http://inside.glnetworks.de/&quot;&gt;GL Networks Inside&lt;/a&gt;.
+
+WeatherTime is a screensaver to show graphical weather forecasts along with the current date and time on &lt;a href=&quot;http://www.slimdevices.com/&quot;&gt;Slim Devices&lt;/a&gt; great network music players SLIMP3 and Squeezebox. It is a intended replacement for the standard DateTime screensaver.
+
+
+&lt;!--more--&gt;
+
+
+&lt;strong&gt;Neat Features&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;fetches weather data online from Wunderground.Com&lt;/li&gt;
+	&lt;li&gt;displays graphical icons for weather conditions along with weather data&lt;/li&gt;
+	&lt;li&gt;supports both metric and imperial units&lt;/li&gt;
+	&lt;li&gt;supports English, German, French (contributed by &lt;a title=&quot;mail Daniel Born&quot; href=&quot;mailto:born_daniel@yahoo.com&quot;&gt;Daniel Born&lt;/a&gt;) and Dutch (contributed by &lt;a title=&quot;mail Willem Oepkes&quot; href=&quot;mailto:oepkes@klq.nl&quot;&gt;Willem Oepkes&lt;/a&gt; and &lt;a title=&quot;mail Mark Ruys&quot; href=&quot;mailto:mark@paracas.nl&quot;&gt;Mark Ruys&lt;/a&gt;) menus and weather infomation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img alt=&quot;WeatherTime screenshot current conditions...&quot; id=&quot;image8&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2006/03/WeatherTime-screen2.jpg&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img id=&quot;image10&quot; alt=&quot;WeatherTime screenshot forecast...&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2006/03/WeatherTime-screen3.jpg&quot; /&gt;&lt;/div&gt;
+&lt;strong&gt;
+Installation&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;For the 7.x series of Squeezecenter download &lt;a href=&quot;http://inside.glnetworks.de/wp-content/uploads/2009/01//Plugins-WeatherTime-Plugin r152.zip&quot; title=&quot;Plugins-WeatherTime-Plugin r152.zip&quot;&gt;WeatherTime 2.2.1 (zip)&lt;/a&gt; and visit the &lt;a title=&quot;WeatherTime Project on Google Code&quot; target=&quot;_blank&quot; href=&quot;http://weathertime.googlecode.com&quot;&gt;project's page on Googlecode&lt;/a&gt; for further instructions.&lt;/li&gt;
+	&lt;li&gt;For the 6.5 series of Slimserver download either &lt;a id=&quot;p65&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.5.zip&quot;&gt;WeatherTime 1.9.5 (zip)&lt;/a&gt; or &lt;a id=&quot;p64&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.5.tar.gz&quot;&gt;WeatherTime 1.9.5 (tar.gz)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Extract the archive into the 'Plugins' directory of your Slimserver installation&lt;/li&gt;
+	&lt;li&gt;Restart Slimserver&lt;/li&gt;
+	&lt;li&gt;Activate the plugin and set up the WeatherTime options in Slimserver's plugin settings&lt;/li&gt;
+	&lt;li&gt;Activate WeatherTime as a screensaver for off-mode and/or on inactivity in your player settings. The easiest way to do this is the SlimServer web frontend (Player settings).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;Hints and Tips&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;You can browse through the weather forecasts of the coming days with the up and down arrows on your remote.&lt;/li&gt;
+	&lt;li&gt;You can manually start (e.g. not enabling it as a screensaver) WeatherTime from the Plugin menu of your player - press PLAY.&lt;/li&gt;
+	&lt;li&gt;To avoid truncation of the date and time information, choose short display formats in Slimserver's Server Settings -&gt; Formatting. Even shorter date formats are available in WeatherTime's plugin settings. You may also choose not to display the date at all.&lt;/li&gt;
+	&lt;li&gt;Report issues and seek solutions at the &lt;a title=&quot;Slim Devices Forum&quot; href=&quot;http://forums.slimdevices.com/showthread.php?t=21989&quot;&gt;Slim Devices Plugins Forum WeatherTime thread&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;Restrictions &amp; Known Bugs&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Needs a Squeezebox2 or better to show weather condition icons and detailed info, the SLIMP3 and SqueezeboxG devices will show text only information&lt;/li&gt;
+	&lt;li&gt;Truncation of weather condition texts may occur occasionally for rather long texts&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>WeatherTime Screensaver Plugin for Slimserver</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-screensaver-plugin-for-slimserver</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2009-01-17 22:33:44</post_modified>
+        <post_modified_gmt>2009-01-17 21:33:44</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2006/03/11/weathertime-screensaver-plugin-for-slimserver/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>90</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>61</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-05 20:47:58</post_date>
+        <post_date_gmt>2008-05-05 19:47:58</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.4 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-194-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-05 20:47:58</post_modified>
+        <post_modified_gmt>2008-05-05 19:47:58</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.4.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>62</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-05 20:48:15</post_date>
+        <post_date_gmt>2008-05-05 19:48:15</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.4 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-194-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-05 20:48:15</post_modified>
+        <post_modified_gmt>2008-05-05 19:48:15</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.4.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>63</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-05 20:48:46</post_date>
+        <post_date_gmt>2008-05-05 19:48:46</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 2.1 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-21-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-05 20:48:46</post_modified>
+        <post_modified_gmt>2008-05-05 19:48:46</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/Plugins-WeatherTime-Plugin r102.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>17</ID>
+        <post_author>1</post_author>
+        <post_date>2006-04-02 22:36:25</post_date>
+        <post_date_gmt>2006-04-02 21:36:25</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WheatherTime screenshot loading...</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>wheathertime-screenshot-loading</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-04-02 22:36:25</post_modified>
+        <post_modified_gmt>2006-04-02 21:36:25</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/04/WeatherTime-screen1.jpg</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>image/jpeg</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>8</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-11 14:39:51</post_date>
+        <post_date_gmt>2006-03-11 13:39:51</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WheatherTime screenshot current conditions...</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>wheathertime-screenshot-current-conditions</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-11 14:39:51</post_modified>
+        <post_modified_gmt>2006-03-11 13:39:51</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/WeatherTime-screen2.jpg</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>image/jpeg</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>10</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-11 16:35:54</post_date>
+        <post_date_gmt>2006-03-11 15:35:54</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime screenshot forecast...</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-screenshot-forecast</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-11 16:35:54</post_modified>
+        <post_modified_gmt>2006-03-11 15:35:54</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/WeatherTime-screen3.jpg</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>image/jpeg</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>11</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-12 20:02:17</post_date>
+        <post_date_gmt>2006-03-12 19:02:17</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.3 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v13-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-12 20:02:17</post_modified>
+        <post_modified_gmt>2006-03-12 19:02:17</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/weathertime_1.3.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>12</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-12 20:02:36</post_date>
+        <post_date_gmt>2006-03-12 19:02:36</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.3 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v13-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-12 20:02:36</post_modified>
+        <post_modified_gmt>2006-03-12 19:02:36</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/weathertime_1.3.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>13</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-17 16:12:31</post_date>
+        <post_date_gmt>2006-03-17 15:12:31</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.4 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v14-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-17 16:12:31</post_modified>
+        <post_modified_gmt>2006-03-17 15:12:31</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/weathertime_1.4.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>14</ID>
+        <post_author>1</post_author>
+        <post_date>2006-03-17 16:12:53</post_date>
+        <post_date_gmt>2006-03-17 15:12:53</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.4 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v14-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-03-17 16:12:53</post_modified>
+        <post_modified_gmt>2006-03-17 15:12:53</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/03/weathertime_1.4.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>15</ID>
+        <post_author>1</post_author>
+        <post_date>2006-04-02 22:22:43</post_date>
+        <post_date_gmt>2006-04-02 21:22:43</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.5 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v15-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-04-02 22:22:43</post_modified>
+        <post_modified_gmt>2006-04-02 21:22:43</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/04/weathertime_1.5.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>16</ID>
+        <post_author>1</post_author>
+        <post_date>2006-04-02 22:23:09</post_date>
+        <post_date_gmt>2006-04-02 21:23:09</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.5 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v15-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-04-02 22:23:09</post_modified>
+        <post_modified_gmt>2006-04-02 21:23:09</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/04/weathertime_1.5.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>20</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-01 20:12:02</post_date>
+        <post_date_gmt>2006-05-01 19:12:02</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v16-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-01 20:12:02</post_modified>
+        <post_modified_gmt>2006-05-01 19:12:02</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>21</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-01 20:12:17</post_date>
+        <post_date_gmt>2006-05-01 19:12:17</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v16-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-01 20:12:17</post_modified>
+        <post_modified_gmt>2006-05-01 19:12:17</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>22</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-02 19:27:06</post_date>
+        <post_date_gmt>2006-05-02 18:27:06</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.1 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v161-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-02 19:27:06</post_modified>
+        <post_modified_gmt>2006-05-02 18:27:06</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.1.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>23</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-02 19:27:27</post_date>
+        <post_date_gmt>2006-05-02 18:27:27</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.1 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v161-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-02 19:27:27</post_modified>
+        <post_modified_gmt>2006-05-02 18:27:27</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.1.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>24</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-03 12:17:04</post_date>
+        <post_date_gmt>2006-05-03 11:17:04</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.2 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v162-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-03 12:17:04</post_modified>
+        <post_modified_gmt>2006-05-03 11:17:04</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.2.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>25</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-03 12:17:23</post_date>
+        <post_date_gmt>2006-05-03 11:17:23</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.2 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v162-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-03 12:17:23</post_modified>
+        <post_modified_gmt>2006-05-03 11:17:23</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.2.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>26</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-03 14:48:47</post_date>
+        <post_date_gmt>2006-05-03 13:48:47</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.3 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v163-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-03 14:48:47</post_modified>
+        <post_modified_gmt>2006-05-03 13:48:47</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.3.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>27</ID>
+        <post_author>1</post_author>
+        <post_date>2006-05-03 14:49:09</post_date>
+        <post_date_gmt>2006-05-03 13:49:09</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.6.3 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v163-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-05-03 14:49:09</post_modified>
+        <post_modified_gmt>2006-05-03 13:49:09</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/05/weathertime_1.6.3.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>32</ID>
+        <post_author>1</post_author>
+        <post_date>2006-06-05 23:38:27</post_date>
+        <post_date_gmt>2006-06-05 22:38:27</post_date_gmt>
+        <post_content></post_content>
+        <post_title>microformat-find-gm5 plugin</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>microformat-find-gm5-plugin</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-06-05 23:38:27</post_modified>
+        <post_modified_gmt>2006-06-05 22:38:27</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>30</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/06/microformat-find-gm5.user.js</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/javascript</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>30</ID>
+        <post_author>2</post_author>
+        <post_date>2006-06-05 17:22:21</post_date>
+        <post_date_gmt>2006-06-05 16:22:21</post_date_gmt>
+        <post_content>When I first heard about Microformats, I immediately was convinced that they are the way to go within the Semantic Web. There just were no practical tools around to display and use them within &lt;strong&gt;&lt;em&gt;my&lt;/em&gt;&lt;/strong&gt; browser, which happens to be a recent Firefox on Linux.
+Well, there is microformat-find-gm5, based on the work of &lt;a title=&quot;David Janes on &quot; href=&quot;http://blog.davidjanes.com/mtarchives/2005_08.html#003375&quot;&gt;David Janes&lt;/a&gt;, now. Get it while it's hot!
+
+
+&lt;!--more--&gt;
+
+
+&lt;strong&gt;Background&lt;/strong&gt;
+
+On Web pages you will often find references to individuals, locations and calendar dates. &lt;a title=&quot;microformats.org&quot; href=&quot;http://microformats.org/&quot;&gt;Microformats&lt;/a&gt; are a way to embed these (and other) content elements within a webpage, so a machine can read and process them. This is what the microformat-find-gm5 scripts does. It looks for supported Microformats on a Web page, tags them with little images having a context menu to provide useful functions for the given content. That might be 'Add to address book' or 'Add to Calendar', 'Show on Google Maps' and so on. More and more webpages and blogs are using Microformats, so look out for these little tags...
+
+&lt;img alt=&quot;hCard tag&quot; title=&quot;hCard tag&quot; src=&quot;http://inside.glnetworks.de/images/mf_hcard.png&quot; /&gt;
+
+&lt;strong&gt;Download and Installation&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;You need &lt;a title=&quot;Firefox download&quot; href=&quot;http://www.mozilla.org/products/firefox/&quot;&gt;Firefox&lt;/a&gt; with an installed &lt;a title=&quot;Greasemonkey download&quot; href=&quot;http://greasemonkey.mozdev.org/&quot;&gt;Greasemonkey&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Then open the &lt;a id=&quot;p29&quot; title=&quot;microformat-find-gm5 plugin&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2006/06/microformat-find-gm5.user.js&quot;&gt;microformat-find-gm5 plugin&lt;/a&gt; and click 'Install' in the Greasemonkey title bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;References to other Microformat tools&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;David Janes' microformat-find script (&lt;a title=&quot;microformat-find.user.js&quot; href=&quot;http://www.blogmatrix.com/include/microformat-find.user.js&quot;&gt;http://www.blogmatrix.com/include/microformat-find.user.js&lt;/a&gt;) ... was used as the starting point for microformat-find-gm5 - it just would not run with recent Greasemonkeys.&lt;/li&gt;
+	&lt;li&gt;Tails (&lt;a title=&quot;Tails Firefox Extension&quot; href=&quot;http://blog.codeeg.com/tails-firefox-extension/&quot;&gt;http://blog.codeeg.com/tails-firefox-extension/&lt;/a&gt;) ... is display only.&lt;/li&gt;
+	&lt;li&gt;TailsExport (&lt;a title=&quot;TailsExport Firefox Extension&quot; href=&quot;https://addons.mozilla.org/firefox/2240/&quot;&gt;https://addons.mozilla.org/firefox/2240/&lt;/a&gt;) ... is MS Windows only and beta.&lt;/li&gt;
+	&lt;li&gt;Smartzilla (&lt;a title=&quot;Smartzilla Firefox Extension&quot; href=&quot;http://www.stripytshirt.co.uk/features/firefox/smartzilla&quot;&gt;http://www.stripytshirt.co.uk/features/firefox/smartzilla&lt;/a&gt;) ... does not provide tags within the page or a sidebar view.&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Microformats have arrived in Firefox 1.5 / Greasemonkey 0.6</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>microformats-have-arrived-in-firefox-15-greasemonkey-06</post_name>
+        <to_ping></to_ping>
+        <pinged>
+http://www.stripytshirt.co.uk/features/firefox/smartzilla</pinged>
+        <post_modified>2008-05-19 18:04:01</post_modified>
+        <post_modified_gmt>2008-05-19 17:04:01</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2006/06/05/microformats-have-arrived-in-firefox-15-greasemonkey-06/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>3</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>33</ID>
+        <post_author>1</post_author>
+        <post_date>2006-06-23 21:37:03</post_date>
+        <post_date_gmt>2006-06-23 20:37:03</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.7 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v17-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-06-23 21:37:03</post_modified>
+        <post_modified_gmt>2006-06-23 20:37:03</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/06/weathertime_1.7.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>34</ID>
+        <post_author>1</post_author>
+        <post_date>2006-06-23 21:37:44</post_date>
+        <post_date_gmt>2006-06-23 20:37:44</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.7 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v17-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-06-23 21:37:44</post_modified>
+        <post_modified_gmt>2006-06-23 20:37:44</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/06/weathertime_1.7.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>35</ID>
+        <post_author>1</post_author>
+        <post_date>2006-09-23 20:48:36</post_date>
+        <post_date_gmt>2006-09-23 19:48:36</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.8 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v18-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-09-23 20:48:36</post_modified>
+        <post_modified_gmt>2006-09-23 19:48:36</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/09/weathertime_1.8.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>37</ID>
+        <post_author>1</post_author>
+        <post_date>2006-09-23 20:49:23</post_date>
+        <post_date_gmt>2006-09-23 19:49:23</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.8 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v18-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2006-09-23 20:49:23</post_modified>
+        <post_modified_gmt>2006-09-23 19:49:23</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2006/09/weathertime_1.8.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>38</ID>
+        <post_author>2</post_author>
+        <post_date>2007-04-06 09:13:41</post_date>
+        <post_date_gmt>2007-04-06 08:13:41</post_date_gmt>
+        <post_content>At yesterday's meeting of the &lt;a title=&quot;Berlin Ruby Users Group&quot; href=&quot;http://www.rubyonrails-ug.de/wiki/berlin&quot;&gt;Berlin Ruby Users Group&lt;/a&gt; my fellow rubyist &lt;a title=&quot;Mail Adam Groves&quot; href=&quot;mailto:adam.groves@gmail.com&quot;&gt;Adam Groves&lt;/a&gt; and I shared our thoughts on how to utilize &lt;a title=&quot;Amazons Elastic Compute Cloud EC2 web service&quot; href=&quot;http://aws.amazon.com/ec2&quot;&gt;Amazons EC2 (Elastic Compute Cloud) web service&lt;/a&gt; for hosting applications, especially with &lt;a title=&quot;Ruby on Rails&quot; href=&quot;http://www.rubyonrails.org&quot;&gt;Ruby on Rails&lt;/a&gt; in mind. A major issue is the non persistence of local storage in the EC2 environment. We outlined several approaches on how to possibly solve this issue, minimizing potential data loss.
+
+Download the complete set of slides &lt;a title=&quot;Slides for EC2 talk at BRUG 05-Apr-2007&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/04/S3%20and%20EC2%2005-Apr-2007%20BRUG.pdf&quot;&gt;here&lt;/a&gt;.
+
+&lt;a id=&quot;p39&quot; title=&quot;Slide preview for EC2 talk at BRUG 05-Apr-2007&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/04/S3%20and%20EC2%2005-Apr-2007%20BRUG.pdf&quot;&gt;&lt;img id=&quot;image39&quot; alt=&quot;Slide preview for EC2 talk at BRUG 05-Apr-2007&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/04/S3%20and%20EC2%2005-Apr-2007%20BRUG.thumbnail.png&quot; /&gt;&lt;/a&gt;
+
+For further questions or comments, just drop me a line at &lt;a title=&quot;Mail Martin Rehfeld at GL Networks&quot; href=&quot;mailto:martin.rehfeld@glnetworks.de&quot;&gt;martin.rehfeld@glnetworks.de&lt;/a&gt;.</post_content>
+        <post_title>Amazon EC2 - The Future of (Rails-) Hosting?</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>amazon-ec2-the-future-of-rails-hosting</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:04:24</post_modified>
+        <post_modified_gmt>2008-05-19 17:04:24</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2007/04/06/amazon-ec2-the-future-of-rails-hosting/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>1</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>39</ID>
+        <post_author>1</post_author>
+        <post_date>2007-04-06 08:53:13</post_date>
+        <post_date_gmt>2007-04-06 07:53:13</post_date_gmt>
+        <post_content></post_content>
+        <post_title>Slide preview for EC2 talk at BRUG 05-Apr-2007</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>slide-preview-for-ec2-talk-at-brug-05-apr-2007</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-04-06 08:53:13</post_modified>
+        <post_modified_gmt>2007-04-06 07:53:13</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>38</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/04/S3 and EC2 05-Apr-2007 BRUG.png</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>image/png</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>40</ID>
+        <post_author>1</post_author>
+        <post_date>2007-04-06 08:53:58</post_date>
+        <post_date_gmt>2007-04-06 07:53:58</post_date_gmt>
+        <post_content></post_content>
+        <post_title>Slides for EC2 talk at BRUG 05-Apr-2007</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>slides-for-ec2-talk-at-brug-05-apr-2007</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-04-06 08:53:58</post_modified>
+        <post_modified_gmt>2007-04-06 07:53:58</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>38</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/04/S3 and EC2 05-Apr-2007 BRUG.pdf</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/pdf</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>41</ID>
+        <post_author>1</post_author>
+        <post_date>2007-04-21 19:14:01</post_date>
+        <post_date_gmt>2007-04-21 18:14:01</post_date_gmt>
+        <post_content></post_content>
+        <post_title>Screenshot Radio English</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>screenshot-radio-english</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-04-21 19:14:01</post_modified>
+        <post_modified_gmt>2007-04-21 18:14:01</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>42</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/04/radio_screenshot_en.png</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>image/png</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>42</ID>
+        <post_author>2</post_author>
+        <post_date>2007-04-21 19:15:14</post_date>
+        <post_date_gmt>2007-04-21 18:15:14</post_date_gmt>
+        <post_content>A little pet project I have been developing for a while starred in the last couple of issues of the German &lt;a title=&quot;Entwickler Magazin&quot; href=&quot;http://www.entwickler-magazin.de/&quot;&gt;Entwickler-Magazin&lt;/a&gt; (~ developer's magazine). It is a Ruby on Rails application called Radio and can record scheduled audio streams from the internet and provide you with a local RSS feed of the recordings in MP3 format. Cool to carry around radio recordings on your iPod ;-)
+
+&lt;a class=&quot;imagelink&quot; title=&quot;Screenshot Radio English&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/04/radio_screenshot_en.png&quot;&gt;&lt;img id=&quot;image41&quot; alt=&quot;Screenshot Radio English&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/04/radio_screenshot_en.thumbnail.png&quot; /&gt;&lt;/a&gt;
+
+The source is published under a &lt;a title=&quot;GPL License&quot; href=&quot;http://www.gnu.org/copyleft/gpl.txt&quot;&gt;GPL license&lt;/a&gt;, so you can grab &lt;a title=&quot;radioonrails project page on Google Code&quot; href=&quot;http://code.google.com/p/radioonrails/&quot;&gt;radioonrails from Google Code&lt;/a&gt; now and do whatever you want with it (almost).
+By the way, the GUI is available in German and English and will honor your browsers preferences in that respect.
+
+Feedback is very much appreciated! Just drop me a line at &lt;a title=&quot;eMall Martin Rehfeld&quot; href=&quot;mailto:martin.rehfeld@glnetworks.de&quot;&gt;martin.rehfeld@glnetworks.de&lt;/a&gt;</post_content>
+        <post_title>Radio with Rails Pet Project now on Google Code</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>radio-with-rails-pet-project-now-on-google-code</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:04:38</post_modified>
+        <post_modified_gmt>2008-05-19 17:04:38</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2007/04/21/radio-with-rails-pet-project-now-on-google-code/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>44</ID>
+        <post_author>1</post_author>
+        <post_date>2007-11-11 17:23:41</post_date>
+        <post_date_gmt>2007-11-11 16:23:41</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.9 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v19-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-11-11 17:23:41</post_modified>
+        <post_modified_gmt>2007-11-11 16:23:41</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/11/weathertime_1.9.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>45</ID>
+        <post_author>1</post_author>
+        <post_date>2007-11-11 17:24:04</post_date>
+        <post_date_gmt>2007-11-11 16:24:04</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime V1.9 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-v19-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-11-11 17:24:04</post_modified>
+        <post_modified_gmt>2007-11-11 16:24:04</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/11/weathertime_1.9.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>47</ID>
+        <post_author>1</post_author>
+        <post_date>2007-11-16 10:44:40</post_date>
+        <post_date_gmt>2007-11-16 09:44:40</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.1 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-191-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-11-16 10:44:40</post_modified>
+        <post_modified_gmt>2007-11-16 09:44:40</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/11/weathertime_1.9.1.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>48</ID>
+        <post_author>1</post_author>
+        <post_date>2007-11-16 10:45:04</post_date>
+        <post_date_gmt>2007-11-16 09:45:04</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.1 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-191-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2007-11-16 10:45:04</post_modified>
+        <post_modified_gmt>2007-11-16 09:45:04</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2007/11/weathertime_1.9.1.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>49</ID>
+        <post_author>2</post_author>
+        <post_date>2007-12-13 17:54:18</post_date>
+        <post_date_gmt>2007-12-13 16:54:18</post_date_gmt>
+        <post_content>I always wanted to have a stylish and versatile media center solution. Oh, and it had to stay out of the way, consuming very little space. As it may well become the center of my digital media world, it should definitely not dominate my living room in a similar way. Here's what I came up with.
+
+&lt;img width=&quot;200&quot; height=&quot;124&quot; border=&quot;0&quot; align=&quot;left&quot; alt=&quot;CIMG4440_2_200x124.shkl.JPG&quot; style=&quot;padding-right: 25px; padding-bottom: 30px&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/12//CIMG4440_2_200x124.shkl.JPG&quot; /&gt;
+&lt;div&gt;&lt;u&gt;Hardware Ingredients:&lt;/u&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a target=&quot;_top&quot; href=&quot;http://www.tkqlhce.com/click-2758572-10480559&quot;&gt;Apple Mac Mini&lt;/a&gt;
+&lt;img width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; src=&quot;http://www.awltovhc.com/image-2758572-10480559&quot; /&gt; (low end is fine)&lt;/li&gt;
+	&lt;li&gt;&lt;a target=&quot;_top&quot; href=&quot;http://www.tkqlhce.com/click-2758572-10480544&quot;&gt;Apple Cinema Display HD 23&quot;&lt;/a&gt;
+&lt;img width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; src=&quot;http://www.tqlkg.com/image-2758572-10480544&quot; /&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a target=&quot;_top&quot; href=&quot;http://www.jdoqocy.com/click-2758572-10505539&quot;&gt;Apple VESA Mount Adapter for CD&lt;/a&gt;
+&lt;img width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; src=&quot;http://www.ftjcfx.com/image-2758572-10505539&quot; /&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://vogels.com&quot;&gt;Vogels&lt;/a&gt; &lt;a href=&quot;http://vogels.com/detail.asp?ISSAID=255&amp;ParentID=31&amp;ChildID=80&amp;PlineId=0&quot;&gt;VFW 030 VESA Wall-Mount Plate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear: left&quot;&gt;&lt;img width=&quot;150&quot; height=&quot;200&quot; border=&quot;0&quot; align=&quot;right&quot; alt=&quot;Mac Mini fitted behind Cinema Display&quot; style=&quot;padding-left: 25px; padding-right: 5px; padding-bottom: 10px&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/12//CIMG4441_150x200.shkl.JPG&quot; /&gt; &lt;u&gt;Software Ingredients:&lt;/u&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.mythtv.org/&quot;&gt;Mythtv&lt;/a&gt; Frontend&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.iospirit.com/remotebuddy/&quot;&gt;Remote Buddy&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Add &lt;a href=&quot;http://www.videolan.org/vlc/download-macosx.html&quot;&gt;VLC&lt;/a&gt; et al to your liking&lt;/li&gt;
+&lt;/ul&gt;
+This definitely &lt;em&gt;is&lt;/em&gt; stylish and space-efficient, isn't it. But where did the Mini go? It's hiding itself behind the display along with the power supplies and cabling. As you can see, the drive slot remains easily accessible from the side.
+
+&lt;strong&gt;Software&lt;/strong&gt;
+
+The media center software was easily chosen. As I am already running a &lt;a href=&quot;http://www.mythtv.org/&quot;&gt;MythTV&lt;/a&gt; backend on a different (Linux) box, MythTV's frontend had to be installed on the Mini. Fortunately, recent versions are available as &lt;a href=&quot;http://padilla.net/mythtv-osx&quot;&gt;pre-build binaries for OSX&lt;/a&gt;.
+
+One Caveat: For some reason, the Apple Remote is not working with MythTV since Leopard (Tiger was fine). Looking for a fix, I stumbled across &lt;a href=&quot;http://www.iospirit.com/remotebuddy/&quot;&gt;Remote Buddy&lt;/a&gt;. This little gem not only circumvents the MythTV/Leopard problem but also gives almost full control to the system using the only the remote. That was ridding me of the need to keep a keyboard and mouse around.&lt;/div&gt;
+
+
+&lt;!--more--&gt;
+
+
+&lt;strong&gt;Hardware Assembly&lt;/strong&gt;
+
+&lt;img width=&quot;200&quot; height=&quot;134&quot; border=&quot;0&quot; align=&quot;right&quot; alt=&quot;Distancing the Display from the Wall-Mount System&quot; style=&quot;padding-left: 25px; padding-right: 5px; padding-bottom: 10px&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/12//CIMG4444_200x134.shkl.JPG&quot; /&gt;I started by putting the display at the wall using the VESA adapter and wall-mount system. With this configuration, the distance between wall and display was about 6mm too small to get the Mini behind. So I used longer screws and distanced the display using two hex nuts and a shim.
+
+That way a little over 50mm were available between wall and display - enough for the Mini. I decided to put the mini on the right side with it's top facing towards the wall. While it is possible to put the Mini on the left side instead, it still has to have its top facing the wall. Otherwise the connectors will not be accessible in a way that the cabling runs through the VESA adapter. And that's a must to keep the Mini fully hidden behind the display.
+
+To give the Mini a stand, I bolted a wooden strip to the wall. It's top should be approximately 22.5cm below the display's top edge. The Mini's connectors are then at a good height relative to the VESA adapter.
+
+For convenience, I a added another wooden strip at the left side to screen the cabling and power supplies from view. A last slat is attached horizontally just above the lower edge of the display. It provides a nice stand for the power supplies and prevents the cabling from peering below the display.
+
+&lt;strong&gt;Roundup&lt;/strong&gt;
+
+&lt;img width=&quot;200&quot; height=&quot;150&quot; border=&quot;0&quot; align=&quot;left&quot; alt=&quot;CIMG4440_200x150.shkl.JPG&quot; style=&quot;padding-right: 25px; padding-bottom: 6px&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2007/12//CIMG4440_200x150.shkl.JPG&quot; /&gt;For about 1.500 EUR (at the time of writing), I build myself a good looking media center solution featuring full HD resolution, digital audio and video and a flexible software stack. While this is a lot of money, other solutions I considered don't come cheap either. And none of the alternative approaches came close to the minimalistic design of a Cinema Display attached to the wall - even an iMac has a bigger footprint. Continuing down this road and adding a &lt;a href=&quot;http://www.yamaha-hifi.com/&quot;&gt;Yamaha Sound Projector&lt;/a&gt; to the equation, I was able to get a similarly minimalist configuration for the audio part. I must say, I am very pleased with the result.
+</post_content>
+        <post_title>Mac Mini Mediacenter in 3.8&quot; Room Space</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>mac-mini-mediacenter-in-38-room-space</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2009-05-13 19:47:27</post_modified>
+        <post_modified_gmt>2009-05-13 18:47:27</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2007/12/13/mac-mini-mediacenter-in-38-room-space/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>4</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>50</ID>
+        <post_author>2</post_author>
+        <post_date>2007-12-15 14:14:55</post_date>
+        <post_date_gmt>2007-12-15 13:14:55</post_date_gmt>
+        <post_content>Amazon Web Services yesterday announced its latest creation: &lt;a href=&quot;http://aws.amazon.com/simpledb&quot;&gt;SimpleDB&lt;/a&gt;. &lt;a href=&quot;http://aws.amazon.com/simpledb&quot;&gt;SimpleDB&lt;/a&gt; is a database-like storage service for structured data. It complements &lt;a href=&quot;http://aws.amazon.com/ec2&quot;&gt;EC2&lt;/a&gt; (the Elastic Compute Cloud) and &lt;a href=&quot;http://aws.amazon.com/s3&quot;&gt;S3&lt;/a&gt; (the Simple Storage Service), potentially enabling web applications to run solely on Amazon's service stack. SimpleDB has a couple of limitations compared to traditional relational databases, the most important being:
+&lt;ul&gt;
+	&lt;li&gt;No joined queries against multiple tables (or domains, as Amazon puts it)&lt;/li&gt;
+	&lt;li&gt;No transactions protecting multiple updates&lt;/li&gt;
+	&lt;li&gt;No instant data updates, i.e. you might get &quot;old&quot; data when you query data that was updated very recently&lt;/li&gt;
+&lt;/ul&gt;
+We will have to wait and see what kind of applications SimpleDB can support regardless of these limitations. On the plus side we get the usual benefits of Amazon's Web Services:
+&lt;ul&gt;
+	&lt;li&gt;very good scalability&lt;/li&gt;
+	&lt;li&gt;high availability&lt;/li&gt;
+	&lt;li&gt;low cost / pay for usage&lt;/li&gt;
+&lt;/ul&gt;
+At &lt;a href=&quot;http://www.glnetworks.de/&quot;&gt;GL Networks&lt;/a&gt; we will definately take a close look at SimpleDB, possibly bridging it to &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Rails&lt;/a&gt; via the &lt;a href=&quot;http://api.rubyonrails.org/classes/ActiveResource.html&quot;&gt;ActiveResource&lt;/a&gt; framework.
+
+SimpleDB will enter a closed beta program very soon.
+
+&lt;strong&gt;Related Post:&lt;/strong&gt; &lt;a href=&quot;http://inside.glnetworks.de/2007/04/06/amazon-ec2-the-future-of-rails-hosting/&quot;&gt;Amazon EC2 - The Future of (Rails-) Hosting?&lt;/a&gt;</post_content>
+        <post_title>Amazon SimpleDB web service complementing the EC2 compute cloud</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>amazon-simpledb-web-service-complementing-the-ec2-compute-cloud</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:05:46</post_modified>
+        <post_modified_gmt>2008-05-19 17:05:46</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2007/12/15/amazon-simpledb-web-service-complementing-the-ec2-compute-cloud/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>51</ID>
+        <post_author>2</post_author>
+        <post_date>2007-12-17 21:14:34</post_date>
+        <post_date_gmt>2007-12-17 20:14:34</post_date_gmt>
+        <post_content>Good to hear that &lt;a href=&quot;http://extjs.com/&quot;&gt;Ext JS&lt;/a&gt;, the high level Javascript framework for rich GUI development is getting its well-deserved attention.
+
+That also makes my time feel well spent on that &lt;a href=&quot;http://www.rug-b.com/wiki/new/UG080110&quot;&gt;talk about Ext JS with Rails on 10th January 2008&lt;/a&gt;, I'm currently preparing for the &lt;a href=&quot;http://www.rug-b.com/&quot;&gt;Berlin Ruby User Group (RUG-B)&lt;/a&gt;.</post_content>
+        <post_title>Ext JS already the 3rd most used Web Framework</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>ext-js-already-the-3rd-most-used-web-framwork</post_name>
+        <to_ping></to_ping>
+        <pinged>
+http://extjs.com/blog/2007/12/17/ext-rises-in-popularity/trackback/</pinged>
+        <post_modified>2008-05-19 18:06:08</post_modified>
+        <post_modified_gmt>2008-05-19 17:06:08</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2007/12/17/ext-js-already-the-3rd-most-used-web-framwork/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>52</ID>
+        <post_author>2</post_author>
+        <post_date>2008-01-08 14:36:42</post_date>
+        <post_date_gmt>2008-01-08 13:36:42</post_date_gmt>
+        <post_content>The &lt;a href=&quot;http://extjs.com/&quot;&gt;Ext JS framework&lt;/a&gt; got a lot of attention lately as it offers very sophisticated GUI components for web application development. But how does Ext play along with &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt;, everybody's favorite development framework?
+
+There is not a lot of &lt;a href=&quot;http://extjs.com/tutorial/using-ext-grid-ruby-rails&quot;&gt;documentation&lt;/a&gt; around, though some people seem to be using the combo quite successfully (if you take job posts looking for Rails and Ext skills into account).
+
+Googling reveals some Rails plugins aiming at Ext integration, but a closer look exposes them as mostly &lt;a title=&quot;toolbawks(tm) ext&quot; href=&quot;http://svn.toolbawks.com/toolbawks_extjs/trunk/INSTALL&quot;&gt;&quot;vaporware&quot;&lt;/a&gt;, &lt;a href=&quot;http://extonrails.com/&quot;&gt;abandoned experiments&lt;/a&gt; or as &lt;a href=&quot;http://wota.jp/ac/?date=20070406&quot;&gt;not being actively developed&lt;/a&gt;.
+
+&lt;a title=&quot;Slides for Ext with Rails talk at Ruby Users Group (RUG-B) 10-Jan-2008&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/01//Rails%20GUI%20Development%20with%20Ext%20JS%2010-Jan-08%20RUG-B.pdf&quot;&gt;&lt;img width=&quot;161&quot; height=&quot;114&quot; border=&quot;0&quot; align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 25px; padding-bottom: 10px&quot; alt=&quot;RailsExt.png&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/01//RailsExt.png&quot; /&gt;&lt;/a&gt;For my talk on Ext at the &lt;a title=&quot;Berlin Ruby Users Group (RUG-B)&quot; href=&quot;http://www.rug-b.com/wiki/show/UG080110&quot;&gt;Berlin Ruby Users Group&lt;/a&gt;, I decided to roll my own. The presentation focuses on Rails scaffolding as a good starting point for playing with Ext. The biggest integration task from a Rails point of view is providing the correct JSON data structures that Ext can process - a task that can be solved in a re-usable way. Passing data around between Rails controllers and views and the actual JavaScript code is another focal point. &lt;a title=&quot;Slides for Ext with Rails talk at Ruby Users Group (RUG-B) 10-Jan-2008&quot; href=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/01//Rails%20GUI%20Development%20with%20Ext%20JS%2010-Jan-08%20RUG-B.pdf&quot;&gt;Download the complete set of slides here&lt;/a&gt;.
+
+The presentation features a preview version of my &lt;a href=&quot;http://rug-b.rubyforge.org/svn/ext_scaffold&quot;&gt;Ext Scaffold Generator&lt;/a&gt;, soon to be announced as a official Rails plugin.
+
+[Edit by martin.rehfeld]: The Ext Scaffold Generator has been officially released on 18th January 2008, &lt;a title=&quot;Announcing: Ext Scaffold Generator Plugin for Rails&quot; href=&quot;http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/&quot;&gt;check out the details&lt;/a&gt;.
+
+&lt;div style=&quot;clear:left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Tutorial: How to use the Ext JS Treeview (Ext.tree) with Ruby on Rails&lt;/a&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/02/02/advanced-ext-js-form-controls-with-ruby-on-rails-combobox/&quot;&gt;Mini-Tutorial - Ext JS Form Controls with Ruby on Rails: ComboBox&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/&quot;&gt;Background Presentation: Ext JS and Rails, how do they get along?&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/12/17/ext-js-already-the-3rd-most-used-web-framwork/&quot;&gt;Ext JS already the 3rd most used Web Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Ext JS and Rails, how do they get along?</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>ext-js-and-rails-how-do-they-get-along</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:06:36</post_modified>
+        <post_modified_gmt>2008-05-19 17:06:36</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>12</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>53</ID>
+        <post_author>2</post_author>
+        <post_date>2008-01-18 16:46:16</post_date>
+        <post_date_gmt>2008-01-18 15:46:16</post_date_gmt>
+        <post_content>&lt;img width=&quot;194&quot; height=&quot;199&quot; border=&quot;0&quot; align=&quot;left&quot; alt=&quot;Ext Scaffold Generator Plugin GUI Screenshot.png&quot; style=&quot;padding-right: 5px; padding-bottom: 5px&quot; src=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/01//Ext%20Scaffold%20Generator%20Plugin%20GUI%20Screenshot1.png&quot; /&gt;&lt;p&gt;&lt;strong&gt;Update (12-2008): Ext Scaffold Reloaded has been released. While the version discussed in this post is still available, I strongly suggest looking into the latest version over at &lt;a href=&quot;http://github.com/martinrehfeld/ext_scaffold&quot;&gt;github/ext_scaffold&lt;/a&gt;. The Reloaded edition offers a richer UI, better performance and can be customized much easier -- it is the fruit of all lessons learned since the first release, if you will. &lt;a href=&quot;http://inside.glnetworks.de/2008/12/24/announcing-ext-scaffold-reloaded-plugin-for-ruby-on-rails/&quot;&gt;Read the announcement.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+The Ext Scaffold Generator Plugin can be viewed as a drop-in replacement for Rails' standard Resource Generator. Accepting the very same options, it will generate views using data grid and form components from the &lt;a href=&quot;http://extjs.com/&quot;&gt;Ext JS Javascript GUI framework&lt;/a&gt; as well as a controller acting as an Ext-compatible JSON web service. The generated code can be used as a starting point for further implementation and outlines solutions on how to integrate the Ext JS library with &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Rails&lt;/a&gt; as a backend.
+&lt;div style=&quot;clear: left; padding-bottom: 5px&quot;&gt;&lt;strong&gt;What it does not do&lt;/strong&gt;&lt;/div&gt;
+Ext JS is huge. It provides just about any component for developing Rich Internet Applications. The Ext Scaffold generator only uses a very limited subset of Ext JS. It includes some view helper methods to generate Javascript code, but these helpers are not really meant to be used in other contexts. IMHO it is better to code the Javascript in views by hand.
+
+Any attempt of providing helpers for even a subset of the Ext functionality seemed like a dead-end approach to me. For further refinement of your application I suggest looking at the generated JS code and change it to suit your needs.
+
+&lt;strong&gt;Features and Concepts&lt;/strong&gt;
+
+The way Ext JS works is to code all GUI components and interactions in Javascript. These components will then interact with a datastore backend via web service requests (either JSON or XML formatted).
+
+The Ext Scaffold Generator Plugin provides a custom MIME type alias &lt;code&gt;:ext_json&lt;/code&gt; to be able to handle requests from the Ext frontend separately. The generated controllers show how to do this.
+
+To make data delivery to the Ext frontend easy, the plugin extends the  &lt;code&gt;Array&lt;/code&gt; and &lt;code&gt;ActiveRecord::Base&lt;/code&gt; classes to provide a &lt;code&gt;to_ext_json&lt;/code&gt; method. Here's a simplified example of a potential &lt;code&gt;index&lt;/code&gt; method in a &lt;code&gt;PostsController&lt;/code&gt;:
+&lt;pre&gt;# GET /posts
+# GET /posts.ext_json
+def index
+  respond_to do |format|
+    format.html     # index.html.erb (will fire ext_json request)
+    format.ext_json { render :json =&gt; Post.find(:all).to_ext_json }
+  end
+end&lt;/pre&gt;
+&lt;code&gt;to_ext_json&lt;/code&gt; will also format validation error messages attached to &lt;code&gt;ActiveRecord::Base&lt;/code&gt; objects. This can be used to provide server-side validations additionally to Ext's own client-side validation features in forms. Another simplified example using our fictitious Post resource:
+&lt;pre&gt;# Model
+class Post &lt; ActiveRecord::Base
+  validates_presence_of :title
+end
+
+# Controller
+class PostsController &lt; ApplicationController
+# ...
+# POST /posts
+  def create
+    @post = Post.new(params[:post])
+    if @post.save
+      flash[:notice] = 'Post was successfully created.'
+      render(:update) {|page| page.redirect_to posts_url }
+    else
+      render :json =&gt; @post.to_ext_json(:success =&gt; false)
+  end
+end
+# ...
+end&lt;/pre&gt;
+&lt;strong&gt;Installation&lt;/strong&gt;
+&lt;pre&gt;script/plugin install http://rug-b.rubyforge.org/svn/ext_scaffold&lt;/pre&gt;
+After the plugin has been installed, download the Ext Javascript framework from &lt;a href=&quot;http://extjs.com/download&quot;&gt;http://extjs.com/download&lt;/a&gt; and unzip it into &lt;code&gt;#{RAILS_ROOT}/public/ext&lt;/code&gt;. The plugin was tested against &lt;a href=&quot;http://extjs.com/deploy/ext-2.0.1.zip&quot;&gt;version 2.0.1 of the Ext framework&lt;/a&gt;.
+
+&lt;strong&gt;Usage Exmples (call without params for help)&lt;/strong&gt;
+&lt;pre&gt;./script/generate ext_scaffold post title:string body:text published:boolean
+./script/generate ext_scaffold purchase order_id:integer amount:decimal&lt;/pre&gt;
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;If you like this plugin, please consider recommending me on &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;Working with Rails&lt;/a&gt;. Thank you!
+
+&lt;div style=&quot;clear:left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Tutorial: How to use the Ext JS Treeview (Ext.tree) with Ruby on Rails&lt;/a&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/02/02/advanced-ext-js-form-controls-with-ruby-on-rails-combobox/&quot;&gt;Mini-Tutorial - Ext JS Form Controls with Ruby on Rails: ComboBox&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/&quot;&gt;Background Presentation: Ext JS and Rails, how do they get along?&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/12/17/ext-js-already-the-3rd-most-used-web-framwork/&quot;&gt;Ext JS already the 3rd most used Web Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Announcing: Ext Scaffold Generator Plugin for Rails</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>announcing-ext-scaffold-generator-plugin-for-rails</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-12-25 00:03:41</post_modified>
+        <post_modified_gmt>2008-12-24 23:03:41</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>59</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>54</ID>
+        <post_author>2</post_author>
+        <post_date>2008-01-20 22:52:49</post_date>
+        <post_date_gmt>2008-01-20 21:52:49</post_date_gmt>
+        <post_content>With &lt;a href=&quot;http://aws.amazon.com/simpledb&quot;&gt;SimpleDB&lt;/a&gt;, Amazon added the long-awaited database-like service to it's web services portfolio. A database was the &lt;em&gt;one&lt;/em&gt; thing missing for building a complete web hosting stack with Amazon's services.
+
+Using SimpleDB together with &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; was the thing I immediately wanted to try. Some problems had to be dealt with first:
+&lt;ol&gt;
+	&lt;li&gt;Amazon does not provide any Ruby code for SimpleDB access&lt;/li&gt;
+	&lt;li&gt;SimpleDB has quite some limitations &lt;a href=&quot;http://inside.glnetworks.de/2007/12/15/amazon-simpledb-web-service-complementing-the-ec2-compute-cloud/&quot;&gt;as detailed in a previous post&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+As &lt;a href=&quot;http://lars-schenk.com/open-source-wettbewerb/194&quot;&gt;Lars Schenk outlines on his Blog&lt;/a&gt; at least three different projects on RubyForge are addressing problem number one - only one of them has actual code, though. And that is &lt;a href=&quot;http://rubyforge.org/projects/aws-sdb/&quot;&gt;aws-sdb&lt;/a&gt; by &lt;a href=&quot;http://dysinger.net/2007/12/17/amazon-sdb-released/&quot;&gt;Tim Dysinger from Hawaii&lt;/a&gt;.
+
+OK, using Tim's aws-sdb gem, one can get access to SimpleDB using Ruby. But using SimpleDB as a drop-in-replacement for a relational database and connecting Rails' ActiveRecord to it would require a fairly complex adapter - I am not sure, if this can be done at all, actually.
+
+Looking at Rails, another interface comes to mind: ActiveResource. ActiveResource was written to connect model objects to RESTful web services as their datastore. That sounds like a fit. The APIs are different, but the functionality needed by ActiveResource can be provided by SimpleDB - it's all just &lt;a href=&quot;http://en.wikipedia.org/wiki/Create,_read,_update_and_delete&quot;&gt;CRUD&lt;/a&gt; after all.
+
+All that's needed would be a adapter, a proxy, a proxy server? Yes, that's right. As it turned out, it's not too hard to write one, so here it is :-)
+
+&lt;strong&gt;Announcing AWS SDB Proxy&lt;/strong&gt;
+
+My &lt;a title=&quot;AWS SDB Proxy on Agilewebdevelopment&quot; href=&quot;http://agilewebdevelopment.com/plugins/aws_sdb_proxy&quot;&gt;AWS SDB Proxy&lt;/a&gt; is a HTTP proxy server bridging ActiveResource calls from Rails to Amazon's SimpleDB Web Service allowing it to be used as a storage backend for Rails applications.
+
+The proxy will listen for web service calls initiated by ActiveResource models and forward the requests to SimpleDB using the &lt;a href=&quot;https://rubyforge.org/projects/aws-sdb/&quot;&gt;aws-sdb&lt;/a&gt; gem.
+
+Install the &lt;a href=&quot;http://rug-b.rubyforge.org/svn/aws_sdb_proxy/&quot;&gt;AWS SDB Proxy Plugin from RubyForge&lt;/a&gt; as usual:
+&lt;pre&gt;script/plugin install http://rug-b.rubyforge.org/svn/aws_sdb_proxy&lt;/pre&gt;
+Then follow the instructions provided in the &lt;a href=&quot;http://rug-b.rubyforge.org/svn/aws_sdb_proxy/README&quot;&gt;README&lt;/a&gt;.
+
+&lt;strong&gt;Features and Limitations&lt;/strong&gt;
+
+SimpleDB (and thus AWS SDB Proxy) do not use any pre-defined schema. Every record can potentially have different attributes. SimpleDB also has no data types associated with it's attributes, all data will be stored as strings.
+
+AWS SDB Proxy adds a special &lt;code&gt;_resource&lt;/code&gt; attribute, allowing storage of multiple models within the same SimpleDB domain. Record &lt;code&gt;ids&lt;/code&gt; are generated using a SHA512 hash function to make key collisions extremely unlikely.
+
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;If you like this plugin, please consider recommending me on &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;Working with Rails&lt;/a&gt;. Thank you!
+
+&lt;div style=&quot;clear:left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/12/15/amazon-simpledb-web-service-complementing-the-ec2-compute-cloud/&quot;&gt;Amazon SimpleDB web service complementing the EC2 compute cloud&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/04/06/amazon-ec2-the-future-of-rails-hosting/%22&quot;&gt;Amazon EC2 - The Future of (Rails-) Hosting?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Bridging Rails to Amazon SimpleDB using ActiveResource</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>bridging-rails-to-amazon-simpledb-using-activeresource</post_name>
+        <to_ping></to_ping>
+        <pinged>http://lars-schenk.com/open-source-wettbewerb/194
+http://dysinger.net/2007/12/17/amazon-sdb-released/
+http://www.eadz.co.nz/blog/bblog/trackback.php/145/
+http://badpopcorn.com/2007/12/21/ruby-and-amazon-simpledb/</pinged>
+        <post_modified>2008-05-19 18:07:18</post_modified>
+        <post_modified_gmt>2008-05-19 17:07:18</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/01/20/bridging-rails-to-amazon-simpledb-using-activeresource/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>13</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>55</ID>
+        <post_author>1</post_author>
+        <post_date>2008-01-24 17:15:01</post_date>
+        <post_date_gmt>2008-01-24 16:15:01</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.2 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-192-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-01-24 17:15:01</post_modified>
+        <post_modified_gmt>2008-01-24 16:15:01</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/01/weathertime_1.9.2.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>56</ID>
+        <post_author>1</post_author>
+        <post_date>2008-01-24 17:15:20</post_date>
+        <post_date_gmt>2008-01-24 16:15:20</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.2 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-192-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-01-24 17:15:20</post_modified>
+        <post_modified_gmt>2008-01-24 16:15:20</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/01/weathertime_1.9.2.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>57</ID>
+        <post_author>2</post_author>
+        <post_date>2008-01-26 18:16:09</post_date>
+        <post_date_gmt>2008-01-26 17:16:09</post_date_gmt>
+        <post_content>&lt;img src=&quot;http://inside.glnetworks.de/wp-content/uploads/2008/01//ExtJS Tree.png&quot; alt=&quot;ExtJS Tree Sample Screnshot&quot; border=&quot;0&quot; width=&quot;173&quot; height=&quot;168&quot; align=&quot;right&quot; style=&quot;padding-left:10px;padding-bottom:10px&quot;/&gt;In this little tutorial I am going to show you, how to connect a Ext.tree component (from the remarkable &lt;a href=&quot;http://extjs.com/&quot;&gt;Ext JS Javascript framework&lt;/a&gt;) to a &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; backend.
+
+For starters, we need to &lt;a href=&quot;&quot;&gt;download and extract the Ext framework&lt;/a&gt; to &lt;code&gt;public/ext&lt;/code&gt; in our Rails project folder. We are going to use Rails 2.1.x for this Tutorial. That's not a particular requirement - but you would have to adapt certain Rails 2 concepts should you be using an older version.
+
+To model a tree in Rails, we are going to use the acts_as_nested_set plugin - install it using &lt;code&gt;script/plugin install acts_as_nested_set&lt;/code&gt; now.
+
+To demonstrate the &lt;code&gt;Ext.tree&lt;/code&gt; I will be using a &lt;code&gt;Category&lt;/code&gt; model, having a root category with recursive sub-categories. We can use the Rails resource generator to initialize all neccessary files for us:
+&lt;pre&gt;
+script/generate resource Category parent_id:integer lft:integer rgt:integer text:string&lt;/pre&gt;
+As you can see, each of our categories is just carrying a &lt;code&gt;text&lt;/code&gt; attribute to store its name and the required attributes for the nested set (&lt;code&gt;parent_id, lft, rgt&lt;/code&gt;).
+
+To use the &lt;code&gt;Category&lt;/code&gt; model, we just have to add the &lt;code&gt;acts_as_nested_set&lt;/code&gt; decorator to the &lt;code&gt;Category&lt;/code&gt; class, so it looks like this:
+&lt;pre&gt;
+class Category &amp;lt; ActiveRecord::Base
+  # For Rails 2.1: override default of include_root_in_json
+  # (the Ext.tree.TreeLoader cannot use the additional nesting)
+  Category.include_root_in_json = false if Category.respond_to?(:include_root_in_json)
+
+  acts_as_nested_set
+end&lt;/pre&gt;
+We can now create some sample data using &lt;code&gt;script/console&lt;/code&gt; (you did run &lt;code&gt;rake db:migrate&lt;/code&gt; already, didn't you? ;-) ):
+&lt;pre&gt;
+r = Category.create(:text =&gt; 'Frameworks')
+r.add_child(c1 = Category.create(:text =&gt; 'Ruby on Rails'))
+c1.add_child(Category.create(:text =&gt; 'Model'))
+c1.add_child(Category.create(:text =&gt; 'View'))
+c1.add_child(Category.create(:text =&gt; 'Controller'))
+r.add_child(c2 = Category.create(:text =&gt; 'Ext JS'))
+c2.add_child(c21 = Category.create(:text =&gt; 'tree'))
+c21.add_child(Category.create(:text =&gt; 'TreePanel'))
+c21.add_child(Category.create(:text =&gt; 'AsyncTreeNode'))
+c21.add_child(Category.create(:text =&gt; 'TreeLoader'))&lt;/pre&gt;
+On to our &lt;code&gt;CategoriesController&lt;/code&gt;. We just need an &lt;code&gt;index&lt;/code&gt; method that will initially deliver a (rather static) &lt;code&gt;index.html.erb&lt;/code&gt; view. The same method can then be used to provide JSON data to be consumed by &lt;code&gt;Ext.tree&lt;/code&gt; like this:
+&lt;pre&gt;
+class CategoriesController &amp;lt; ApplicationController
+  def index(id = params[:node])
+    respond_to do |format|
+      format.html # render static index.html.erb
+      format.json { render :json =&gt; Category.find_children(id) }
+    end
+  end
+end&lt;/pre&gt;
+We are giving the &lt;code&gt;index&lt;/code&gt; method a &lt;code&gt;node&lt;/code&gt; query parameter (assigned to a &lt;code&gt;id&lt;/code&gt; variable) that Ext will later use to dynamically request sub-trees as they are extended in the UI.
+
+Obviously we will have to add more code to our &lt;code&gt;Category&lt;/code&gt; model as it currently does not respond to the &lt;code&gt;find_children&lt;/code&gt; method. Let's use the following code to provide it - when no &lt;code&gt;id&lt;/code&gt; or zero is given, the root node(s) of the tree will be returned:
+&lt;pre&gt;
+  # add to model/category.rb
+  def self.root_nodes
+    find(:all, :conditions =&gt; 'parent_id IS NULL')
+  end
+  
+  def self.find_children(start_id = nil)
+    start_id.to_i == 0 ? root_nodes : find(start_id).direct_children
+  end&lt;/pre&gt;
+After starting script/server we can now fire up our browser and request http://localhost:3000/categories.json. Comparing the generated JSON with the format expected by &lt;a href=&quot;http://extjs.com/deploy/dev/docs/?class=Ext.tree.TreeLoader&quot;&gt;Ext.tree.TreeLoader&lt;/a&gt; reveals that each element should supply a boolean attribute called &lt;code&gt;leaf&lt;/code&gt; telling the tree if it can be further expanded or is a final leaf of the tree. To keep our controller skinny as we like it, we will add further methods to the &lt;code&gt;Category&lt;/code&gt; model enabling its standard &lt;code&gt;to_json&lt;/code&gt; method to also supply the required &lt;code&gt;leaf&lt;/code&gt; attribute.
+&lt;pre&gt;
+  # add to model/category.rb
+  def leaf
+    unknown? || children_count == 0
+  end
+  
+  def to_json_with_leaf(options = {})
+    self.to_json_without_leaf(options.merge(:methods =&gt; :leaf))
+  end
+  alias_method_chain :to_json, :leaf&lt;/pre&gt;
+Now that we have the complete backend code in place, we just need to put some Ext Javascript into categories/index.html.erb to try the tree live:
+&lt;pre&gt;
+&amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+       &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&amp;gt;
+&amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=UTF-8&quot; /&amp;gt;
+  &amp;lt;title&amp;gt;Ext.tree with Ruby on Rails Example&amp;lt;/title&amp;gt;
+  &amp;lt;%= stylesheet_link_tag &quot;../ext/resources/css/ext-all.css&quot; %&amp;gt;
+  &amp;lt;%= javascript_include_tag :defaults %&amp;gt;
+  &amp;lt;%= javascript_include_tag &quot;../ext/adapter/prototype/ext-prototype-adapter.js&quot; %&amp;gt;
+  &amp;lt;%= javascript_include_tag &quot;../ext/ext-all.js&quot; %&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;div id=&quot;category-tree&quot; style=&quot;padding:20px&quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;% javascript_tag do -%&amp;gt;
+    Ext.onReady(function(){
+      // create initial root node
+      root = new Ext.tree.AsyncTreeNode({
+        text: 'Invisible Root',
+        id:'0'
+      });
+      // create the tree
+      new Ext.tree.TreePanel({
+        loader: new Ext.tree.TreeLoader({
+          url:'/categories',
+          requestMethod:'GET',
+          baseParams:{format:'json'}
+        }),
+        renderTo:'category-tree',
+        root: root,
+        rootVisible:false
+      });
+      // expand invisible root node to trigger load
+      // of the first level of actual data
+      root.expand();
+    });
+  &amp;lt;% end -%&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/pre&gt;
+Now it is time to look at the final view (http://localhost:3000/categories). If you use &lt;a href=&quot;https://addons.mozilla.org/de/firefox/addon/1843&quot;&gt;Firebug&lt;/a&gt; or something similar you can track the AJAX requests made by Ext.tree to populate the tree dynamically when you expand nodes. Nice, huh?
+
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;If you like this tutorial, please consider recommending me on &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;Working with Rails&lt;/a&gt;. Thank you!
+
+&lt;div style=&quot;clear:left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/&quot;&gt;Announcing: Ext Scaffold Generator Plugin for Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/&quot;&gt;Background Presentation: Ext JS and Rails, how do they get along?&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/02/02/advanced-ext-js-form-controls-with-ruby-on-rails-combobox/&quot;&gt;Mini-Tutorial - Ext JS Form Controls with Ruby on Rails: ComboBox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</post_content>
+        <post_title>Howto use the Ext JS Treeview (Ext.tree) with Ruby on Rails</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-11-20 10:45:01</post_modified>
+        <post_modified_gmt>2008-11-20 09:45:01</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>20</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>58</ID>
+        <post_author>2</post_author>
+        <post_date>2008-02-02 22:42:22</post_date>
+        <post_date_gmt>2008-02-02 21:42:22</post_date_gmt>
+        <post_content>The &lt;a href=&quot;http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/&quot;&gt;Ext Scaffold Generator Plugin for Ruby on Rails&lt;/a&gt; provides a quick start for single-model forms. When proceeding from the generated code to an actual application, one question keeps popping up in no time:
+&lt;blockquote&gt;
+&quot;How can I have a ComboBox in my form populated with choices from some other model to assign a association?&quot;
+&lt;/blockquote&gt;
+
+Say, you have a &lt;code&gt;Post&lt;/code&gt; model for blog posts and a &lt;code&gt;Category&lt;/code&gt; model, similiar to the one we used in the &lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Treeview example&lt;/a&gt;. Each &lt;code&gt;Post&lt;/code&gt; belongs to a &lt;code&gt;Category&lt;/code&gt;:
+&lt;pre&gt;
+class Post &amp;lt; ActiveRecord::Base
+  belongs_to :category
+  # has attributes: id, title, body, category_id
+end&lt;br /&gt;
+class Category &amp;lt; ActiveRecord::Base
+  # has attributes: id, name
+end
+&lt;/pre&gt;
+
+If we were using just Rails without Ext JS, we would probably have the &lt;code&gt;select&lt;/code&gt; form helper build a HTML select field ending up with this sort of code in our view:
+&lt;pre&gt;
+&amp;lt;%= select :post, :category_id,
+       Category.find(:all).collect {|c| [ c.name, c.id ] },
+       { :include_blank =&gt; true } %&amp;gt;
+&lt;/pre&gt;
+
+Guess what? You can use the exact same code with Ext JS. One of the handy features of Ext.form.ComboBox is the ability to transform an existing HTML select tag into one of Ext's nice looking controls.
+
+To turn above select field into a &lt;code&gt;Ext.form.ComboBox&lt;/code&gt; we can use this form item configuration:
+&lt;pre&gt;
+{ fieldLabel:    'Category',
+  xtype:         'combo',
+  triggerAction: 'all',
+  typeAhead:      true,
+  forceSelection: true,
+  transform:     'post_category_id',
+  lazyRender:     true
+}
+&lt;/pre&gt;
+
+A complete _form_items.html.erb partial (as used with the Ext Scaffold Generator) would then look like this:
+&lt;pre&gt;
+&amp;lt;%= select :post, :category_id,
+       Category.find(:all).collect {|c| [ c.name, c.id ] },
+       { :include_blank =&gt; true } %&amp;gt;
+&amp;lt;% javascript_tag do -%&amp;gt;
+  var &amp;lt;%= &quot;#{form_items}&quot; %&amp;gt; = [
+    &amp;lt;%= ext_field(:field_label =&amp;gt; 'Title', :name =&amp;gt; 'post[title]', &amp;#58;xtype =&amp;gt; :text_field) %&amp;gt;,
+    &amp;lt;%= ext_field(:field_label =&amp;gt; 'Body',  :name =&amp;gt; 'post[body]',  &amp;#58;xtype =&amp;gt; :text_area) %&amp;gt;,
+    { fieldLabel:    'Category',
+      xtype:         'combo',
+      triggerAction: 'all',
+      typeAhead:      true,
+      forceSelection: true,
+      transform:     'post_category_id',
+      lazyRender:     true
+    }
+  ];
+&amp;lt;% end -%&amp;gt;
+&lt;/pre&gt;
+
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;If this mini-tutorial was useful to you, please consider recommending me on &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;Working with Rails&lt;/a&gt;. Thank you!
+
+&lt;div style=&quot;clear:left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Tutorial: Howto use the Ext JS Treeview (Ext.tree) with Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/&quot;&gt;Announcing: Ext Scaffold Generator Plugin for Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/&quot;&gt;Background Presentation: Ext JS and Rails, how do they get along?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</post_content>
+        <post_title>Advanced Ext JS Form Controls with Ruby on Rails: ComboBox</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>advanced-ext-js-form-controls-with-ruby-on-rails-combobox</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:08:26</post_modified>
+        <post_modified_gmt>2008-05-19 17:08:26</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/02/02/advanced-ext-js-form-controls-with-ruby-on-rails-combobox/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>6</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>59</ID>
+        <post_author>2</post_author>
+        <post_date>2008-02-08 00:30:21</post_date>
+        <post_date_gmt>2008-02-07 23:30:21</post_date_gmt>
+        <post_content>In today's talk at the &lt;a href=&quot;http://www.rug-b.com/&quot;&gt;Ruby Users Group Berlin (RUG-B)&lt;/a&gt; I gave an introduction to Amazon SimpleDB focusing on how to connect it to Ruby on Rails via the ActiveResource framework and my &lt;a href=&quot;http://agilewebdevelopment.com/plugins/aws_sdb_proxy&quot;&gt;AWS SDB Proxy Server Plugin&lt;/a&gt;.
+
+The vision of eventually forming a truly scalable deployment architecture using Amazons EC2, S3, SQS and SimpleDB web services together, triggered a very vivid discussion.
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_257058&quot;&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slideshare.net/swf/ssplayer2.swf?doc=amazon-simple-db-07-feb-2008-rug-b-120242750584925-2&quot;/&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;/&gt;&lt;embed src=&quot;http://static.slideshare.net/swf/ssplayer2.swf?doc=amazon-simple-db-07-feb-2008-rug-b-120242750584925-2&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/?src=embed&quot;&gt;&lt;img src=&quot;http://static.slideshare.net/swf/logo_embd.png&quot; style=&quot;border:0px none;margin-bottom:-5px&quot; alt=&quot;SlideShare&quot;/&gt;&lt;/a&gt; | &lt;a href=&quot;http://www.slideshare.net/martin.rehfeld/amazon-simple-db-07-feb-2008-rug-b?src=embed&quot; title=&quot;View 'Using Amazon SimpleDB with Ruby on Rails' on SlideShare&quot;&gt;View&lt;/a&gt; | &lt;a href=&quot;http://www.slideshare.net/upload?src=embed&quot;&gt;Upload your own&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;strong&gt;Related Posts&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/20/bridging-rails-to-amazon-simpledb-using-activeresource/&quot;&gt;Bridging Rails to Amazon SimpleDB using ActiveResource&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/12/15/amazon-simpledb-web-service-complementing-the-ec2-compute-cloud/&quot;&gt;Amazon SimpleDB web service complementing the EC2 compute cloud&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2007/04/06/amazon-ec2-the-future-of-rails-hosting/%22&quot;&gt;Amazon EC2 - The Future of (Rails-) Hosting?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</post_content>
+        <post_title>Talking about Amazon SimpleDB with Ruby on Rails</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>talking-about-amazon-simpledb-with-ruby-on-rails</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-19 18:08:56</post_modified>
+        <post_modified_gmt>2008-05-19 17:08:56</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/02/08/talking-about-amazon-simpledb-with-ruby-on-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>60</ID>
+        <post_author>1</post_author>
+        <post_date>2008-05-05 20:26:27</post_date>
+        <post_date_gmt>2008-05-05 19:26:27</post_date_gmt>
+        <post_content>Do not delete</post_content>
+        <post_title>Wordpress patch 2.365r01 partX final</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>wordpress-patch-2365r01-partx-final</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-05 20:26:27</post_modified>
+        <post_modified_gmt>2008-05-05 19:26:27</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>-1210015583</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/wp_update_f23c6c5779085508c01b87507fb8b5ec.htm</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>text/html</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>64</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-06 09:14:00</post_date>
+        <post_date_gmt>2008-05-06 08:14:00</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.5 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-195-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-06 09:14:00</post_modified>
+        <post_modified_gmt>2008-05-06 08:14:00</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.5.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>65</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-06 09:14:19</post_date>
+        <post_date_gmt>2008-05-06 08:14:19</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.5 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-195-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-06 09:14:19</post_modified>
+        <post_modified_gmt>2008-05-06 08:14:19</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/weathertime_1.9.5.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>66</ID>
+        <post_author>2</post_author>
+        <post_date>2008-05-06 09:15:02</post_date>
+        <post_date_gmt>2008-05-06 08:15:02</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 2.1.1 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-211-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-05-06 09:15:02</post_modified>
+        <post_modified_gmt>2008-05-06 08:15:02</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/05/Plugins-WeatherTime-Plugin r104.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>67</ID>
+        <post_author>1</post_author>
+        <post_date>2008-08-02 23:48:32</post_date>
+        <post_date_gmt>2008-08-02 22:48:32</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 2.1.1</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-211</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-08-02 23:48:32</post_modified>
+        <post_modified_gmt>2008-08-02 22:48:32</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/08/Plugins-WeatherTime-Plugin r108.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>68</ID>
+        <post_author>1</post_author>
+        <post_date>2008-08-02 23:49:21</post_date>
+        <post_date_gmt>2008-08-02 22:49:21</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.6 (tar.gz)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-196-targz</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-08-02 23:49:21</post_modified>
+        <post_modified_gmt>2008-08-02 22:49:21</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/08/weathertime_1.9.6.tar.gz</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/x-gzip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>69</ID>
+        <post_author>1</post_author>
+        <post_date>2008-08-02 23:49:49</post_date>
+        <post_date_gmt>2008-08-02 22:49:49</post_date_gmt>
+        <post_content></post_content>
+        <post_title>WeatherTime 1.9.6 (zip)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>attachment</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>weathertime-196-zip</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2008-08-02 23:49:49</post_modified>
+        <post_modified_gmt>2008-08-02 22:49:49</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>6</post_parent>
+        <guid>http://inside.glnetworks.de/wp-content/uploads/2008/08/weathertime_1.9.6.zip</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type>application/zip</post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>70</ID>
+        <post_author>2</post_author>
+        <post_date>2008-12-24 23:52:07</post_date>
+        <post_date_gmt>2008-12-24 22:52:07</post_date_gmt>
+        <post_content>Ext Scaffold just got &quot;Reloaded&quot; for Christmas. Never heard of Ext Scaffold? Ok, so first things first:
+&lt;blockquote&gt;The Ext Scaffold Generator Plugin is a drop-in replacement for Rails' standard Scaffold Generator. Accepting the very same options, it will generate views using data grid and form components from the Ext JS Javascript GUI framework as well as a controller acting as an Ext-compatible JSON web service. The generated code can be used as a starting point for further implementation and outlines solutions on how to integrate the Ext JS library with Rails as a backend.&lt;/blockquote&gt;
+When Ext Scaffold was first released earlier this year, it was a rather experimental shot at Ext/Rails integration. It still received a lot of great feedback, and more importantly it helped me gather things I would do different next time.
+
+&lt;strong&gt;Ext Scaffold Reloaded&lt;/strong&gt; is the fruit of all lessons learned since the first release, if you will. So without further ado, here are the top enhancements:
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;One-page user interface&lt;/strong&gt;: The Grid and the form are integrated into one single page. As no page reload is necessary when switching between grid and form, the interfaces is much more responsive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;No more magic&lt;/strong&gt;: The formerly introduced view helpers are gone. While they made the view code look very simple and elegant, they more so obfuscated what was actually going on.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Easy refinement&lt;/strong&gt;: All Javascript code is now generated explicitly and thus can be easily tweaked and refined to one's needs.&lt;/li&gt;
+&lt;/ol&gt;
+Ext Scaffold also found its new home over at &lt;a href=&quot;http://github.com/martinrehfeld/ext_scaffold/&quot;&gt;github&lt;/a&gt;. So give it a spin and let me know what needs to be radically different in the Revolutions release ;-) .
+
+&lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;&lt;img align=&quot;left&quot; alt=&quot;Recommend Martin Rehfeld on Working With Rails&quot; style=&quot;border: 0pt none ; padding-right: 7px; padding-bottom: 5px&quot; src=&quot;http://workingwithrails.com/images/tools/compact-small-button.jpg&quot; /&gt;&lt;/a&gt;If you like this plugin, please consider recommending me on &lt;a href=&quot;http://www.workingwithrails.com/recommendation/new/person/6641-martin-rehfeld&quot;&gt;Working with Rails&lt;/a&gt;. Thank you!
+&lt;div style=&quot;clear: left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/18/announcing-ext-scaffold-generator-plugin-for-rails/&quot;&gt;Announcing: Ext Scaffold Generator Plugin for Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2009/02/17/howto-associations-with-ext_scaffold-aka-extjs-with-ruby-on-rails/&quot;&gt;Howto: Associations with ext_scaffold (aka ExtJS with Ruby on Rails)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Tutorial: How to use the Ext JS Treeview (Ext.tree) with Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/02/02/advanced-ext-js-form-controls-with-ruby-on-rails-combobox/&quot;&gt;Mini-Tutorial - Ext JS Form Controls with Ruby on Rails: ComboBox&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/08/ext-js-and-rails-how-do-they-get-along/&quot;&gt;Background Presentation: Ext JS and Rails, how do they get along?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Announcing: Ext Scaffold Reloaded Plugin for Ruby on Rails</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>announcing-ext-scaffold-reloaded-plugin-for-ruby-on-rails</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2009-02-17 10:34:38</post_modified>
+        <post_modified_gmt>2009-02-17 09:34:38</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2008/12/24/announcing-ext-scaffold-reloaded-plugin-for-ruby-on-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>4</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>71</ID>
+        <post_author>2</post_author>
+        <post_date>2009-01-25 18:46:00</post_date>
+        <post_date_gmt>2009-01-25 17:46:00</post_date_gmt>
+        <post_content>Oh, it feels good, having successfully met a challenge. I am referring to the homework assignment from &lt;a href=&quot;http://therubyist.com/&quot;&gt;theRubyist Magazine&lt;/a&gt;, Issue 1, the Wig-Wug challenge, of course :-) Well, the competition was not that big, I hear. 
+
+For those of you who do not remember the assignment here is a short recap:
+
+&lt;blockquote&gt;Somehow Matz's Treasured Ruby got lost in a square playing field with unknown dimensions. The digger assigned to the task of recovering the Ruby starts his search at a random location. He can only see his immediate surroundings and is given the lateral and longitudinal &lt;em&gt;distance&lt;/em&gt; to the Ruby before every move, not the &lt;em&gt;direction&lt;/em&gt; mind you. The digger can choose to move left, right, up or down and will be given updated surrounding and distance information afterwards.
+
+The playing field is populated by two kinds of creatures making the digger's life a tad more complicated. While the Fleegol is an annoying little thing that will just take the digger one additional round to get past, the Geegol is outright lethal. Neither the Fleegol nor the Geegol will move, though. So once spotted, they can be dealt with in a well-defined manner.
+
+The task at hand obviously was to provide a implementation of the digger class in Ruby. It had to provide a &lt;code&gt;move!&lt;/code&gt; method that given the distance and surroundings will return the desired direction of movement. The digger that would expressly recover the Treasured Ruby wins.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://therubyist.com/&quot;&gt;theRubyist&lt;/a&gt;, Issue 2 (to be released in February 2009) includes my &quot;Homework Debriefing&quot; giving all the background information.
+
+For anyone that would like to take an even closer look, here's &lt;a href=&quot;http://inside.glnetworks.de/code/star_digger.rb&quot;&gt;the complete source code of my winning solution&lt;/a&gt; .
+
+&lt;em&gt;&lt;strong&gt;Update:&lt;/strong&gt; I just found &lt;a href=&quot;http://github.com/JEG2/wig-wug/tree&quot;&gt;James Edward Gray II's Wig-Wug simulator on github&lt;/a&gt;. So you can try out my code yourself. The star_digger.rb is already included within data/diggers. The simulator will even generate nice SVG images of every turn in the game and you can make multiple digger implementations compete -- fun, fun, fun :-)&lt;/em&gt;
+
+&lt;em&gt;&lt;strong&gt;Update 2:&lt;/strong&gt; &lt;a href=&quot;http://inside.glnetworks.de/video/WigWug.mp4&quot; title=&quot;Video of StarDigger in action&quot;&gt;See the digger in action&lt;/a&gt; desperately fighting its way through a Geegol pested area (Geegols are dark green; Fleegols are blue; the Ruby is, surprise, red). Visualization courtesy of JEG2's simulator.&lt;/em&gt;
+</post_content>
+        <post_title>Winning the Homework Assignment from theRubyist, Issue 1</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>winning-the-homework-assignment-from-therubyist-issue-1</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2009-01-29 19:39:57</post_modified>
+        <post_modified_gmt>2009-01-29 18:39:57</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2009/01/25/winning-the-homework-assignment-from-therubyist-issue-1/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>72</ID>
+        <post_author>2</post_author>
+        <post_date>2009-01-28 10:33:53</post_date>
+        <post_date_gmt>2009-01-28 09:33:53</post_date_gmt>
+        <post_content>&lt;a href=&quot;http://www.igvita.com/&quot;&gt;Ilya Grigorik&lt;/a&gt; just put up &lt;a href=&quot;http://www.igvita.com/2009/01/27/ruby-swarms-visualizing-rails-git/&quot;&gt;a nice visualization of the Rails commit history&lt;/a&gt;.
+
+At one point I spotted three members of the &lt;a href=&quot;http://www.rug-b.com/&quot;&gt;Berlin crew (RUG-B aka Ruby Users Group Berlin)&lt;/a&gt; committing to &lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Rails&lt;/a&gt;:
+
+&lt;a href=&quot;http://inside.glnetworks.de/wp-content/uploads/2009/01//Berlin Rails Committer.png&quot; border=&quot;0&quot; title=&quot;Rails committers at the end of 2008&quot;&gt;&lt;img src=&quot;http://inside.glnetworks.de/wp-content/uploads/2009/01//Berlin Rails Committer Thumb.png&quot; alt=&quot;Berlin Rails Committer Thumb.png&quot; border=&quot;0&quot; width=&quot;455&quot; height=&quot;339&quot; /&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.paperplanes.de/&quot;&gt;Mathias Meyer&lt;/a&gt; has been working on the plugin generator (&lt;a href=&quot;http://github.com/rails/rails/commit/7418d367f0ac4a4ac0ab4604c1b10db78efc6865&quot;&gt;commit&lt;/a&gt;),&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.artweb-design.de/&quot;&gt;Sven Fuchs&lt;/a&gt; was hard at work pushing the &lt;a href=&quot;http://rails-i18n.org/&quot;&gt;Internationalization (I18n) framework into Rails core&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/martinrehfeld&quot;&gt;My own&lt;/a&gt; humble contribution &lt;a href=&quot;http://rails.lighthouseapp.com/projects/8994/tickets/1022-asset-caching-does-not-work-with-relative_url_root#ticket-1022-7&quot;&gt;fixed a bug in the asset helpers when using a relative URL root&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&quot;http://github.com/&quot;&gt;Github&lt;/a&gt; really serves as a catalyst for contributing to open source projects. Keep up the good work, everybody!
+</post_content>
+        <post_title>Berlin Ruby Crew Hard At Work Pushing Rails</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>berlin-ruby-crew-hard-at-work-pushing-rails</post_name>
+        <to_ping>Array</to_ping>
+        <pinged>
+http://www.igvita.com/2009/01/27/ruby-swarms-visualizing-rails-git/</pinged>
+        <post_modified>2009-01-28 10:33:54</post_modified>
+        <post_modified_gmt>2009-01-28 09:33:54</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2009/01/28/berlin-ruby-crew-hard-at-work-pushing-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>2</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>73</ID>
+        <post_author>2</post_author>
+        <post_date>2009-02-17 10:33:20</post_date>
+        <post_date_gmt>2009-02-17 09:33:20</post_date_gmt>
+        <post_content>&lt;p&gt;Jonathan Barket kindly compiled a nice &lt;a href=&quot;http://inside.glnetworks.de/other/jonathan-barket-dot-com-Simple-Associations-with-ext_scaffold/index.html&quot;&gt;howto on leveraging belongs_to associations in ext_scaffold generated user interfaces&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;Check it out!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; The above link points to a local copy of Jonathan's article that was pulled from the Google Cache after he restructured his blog sadly dropping the original content.&lt;/p&gt;
+&lt;div style=&quot;clear: left&quot;&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=http://inside.glnetworks.de/2008/12/24/announcing-ext-scaffold-reloaded-plugin-for-ruby-on-rails/&quot;&gt;Announcing: Ext Scaffold Reloaded Plugin for Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://inside.glnetworks.de/2008/01/26/howto-use-the-ext-js-treeview-exttree-with-ruby-on-rails/&quot;&gt;Tutorial: How to use the Ext JS Treeview (Ext.tree) with Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+        <post_title>Howto: Associations with ext_scaffold (aka ExtJS with Ruby on Rails)</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>howto-associations-with-ext_scaffold-aka-extjs-with-ruby-on-rails</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2009-12-04 20:46:43</post_modified>
+        <post_modified_gmt>2009-12-04 19:46:43</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2009/02/17/howto-associations-with-ext_scaffold-aka-extjs-with-ruby-on-rails/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+    <wp2_posts>
+        <ID>74</ID>
+        <post_author>2</post_author>
+        <post_date>2010-04-02 21:10:32</post_date>
+        <post_date_gmt>2010-04-02 20:10:32</post_date_gmt>
+        <post_content>Developing my current project with CouchDB, I was faced with the decision on tools for full text search.
+
+CouchDB and Lucene seemed to a natural fit and I decided to persue that path. I have not regretted it yet, so I thought I would share a little introduction with you.
+
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_3621992&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/martin.rehfeld/couchdblucene&quot; title=&quot;CouchDB-Lucene&quot;&gt;CouchDB-Lucene&lt;/a&gt;&lt;/strong&gt;&lt;object width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=couchdb-lucene01-apr-2010-100402132746-phpapp02&amp;stripped_title=couchdblucene&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;/&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=couchdb-lucene01-apr-2010-100402132746-phpapp02&amp;stripped_title=couchdblucene&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/martin.rehfeld&quot;&gt;Martin Rehfeld&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;</post_content>
+        <post_title>CouchDB and Lucene -- Java meets ~Script</post_title>
+        <post_category>0</post_category>
+        <post_excerpt></post_excerpt>
+        <post_status>publish</post_status>
+        <comment_status>open</comment_status>
+        <ping_status>open</ping_status>
+        <post_password></post_password>
+        <post_name>couchdb-and-lucene-java-meets-script</post_name>
+        <to_ping></to_ping>
+        <pinged></pinged>
+        <post_modified>2010-04-02 21:10:33</post_modified>
+        <post_modified_gmt>2010-04-02 20:10:33</post_modified_gmt>
+        <post_content_filtered></post_content_filtered>
+        <post_parent>0</post_parent>
+        <guid>http://inside.glnetworks.de/2010/04/02/couchdb-and-lucene-java-meets-script/</guid>
+        <menu_order>0</menu_order>
+        <post_type></post_type>
+        <post_mime_type></post_mime_type>
+        <comment_count>0</comment_count>
+    </wp2_posts>
+</db140151818>
