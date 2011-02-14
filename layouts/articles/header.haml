@@ -5,4 +5,4 @@
   %span.author= @article[:author_name] || @site.config[:author_name]
   at
   %span.posted_at= @article[:created_at]
-  %a.comment-count{:href => url_for(@article) + '#disqus_thread'} Comments
+  %a.comment-count{:href => url_for(@article) + '#disqus_thread', :'data-disqus-identifier' => @article.identifier} Comments

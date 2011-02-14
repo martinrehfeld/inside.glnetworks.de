@@ -57,6 +57,16 @@
         %p.site-info &copy; Copyright GL Networks, 2006-#{Date.today.year}. All rights reserved.
 
     :javascript
+      // Disqus comment counts
+      var disqus_shortname = 'glnetworks-inside';
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+
+    :javascript
       // style tagcloud
       $('.tagcloud .tag').tagcloud({
           size: {start: 14, end: 18, unit: "px"},
@@ -75,16 +85,3 @@
         options.setAutoComplete(true);
         customSearchControl.draw('cse', options);
       }, true);
-
-    :javascript
-      // Disqus comment counts
-      (function() {
-        var links = document.getElementsByTagName('a');
-        var query = '?';
-        for(var i = 0; i < links.length; i++) {
-          if(links[i].href.indexOf('#disqus_thread') >= 0) {
-            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-          }
-        }
-        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/glnetworks-inside/get_num_replies.js' + query + '"></' + 'script>');
-      })();
