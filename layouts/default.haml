@@ -6,8 +6,9 @@
     %title= "GL Networks Inside" << (@item[:title].blank? ? '' : " :: #{@item[:title]}")
     %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    - unless description.blank?
+      %meta(name="description" content="#{description}")
     %meta(name="keywords" content="#{keywords}")
-    %meta(name="description" content="#{description}")
     %meta(name="Author" content="Martin Rehfeld")
     %meta(name="Copyright" content="GL Networks")
     %meta(name="Content-language" content="en")
