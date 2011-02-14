@@ -2,3 +2,6 @@
 %ul.toc
   - sorted_articles.first(@site.config[:articles_on_homepage]).each do |article|
     %li.article-headline= render 'articles/header', :article => article, :headline_tag => 'h2'
+
+- if articles.size > @site.config[:articles_on_homepage]
+  %a.archive(href="/archive/") Looking for older articles? Visit the archive.
