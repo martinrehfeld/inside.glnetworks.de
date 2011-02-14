@@ -4,8 +4,8 @@ require 'rubygems'
 require 'nokogiri'
 require 'uri'
 
-comments_filename = File.expand_path(File.join(File.dirname(__FILE__), '..', 'comments.sql.xml'))
-posts_filename    = File.expand_path(File.join(File.dirname(__FILE__), '..', 'posts.sql.xml'))
+comments_filename = File.expand_path(File.join(File.dirname(__FILE__), '..', 'legacy', 'comments.sql.xml'))
+posts_filename    = File.expand_path(File.join(File.dirname(__FILE__), '..', 'legacy', 'posts.sql.xml'))
 
 #
 # Build Post map
