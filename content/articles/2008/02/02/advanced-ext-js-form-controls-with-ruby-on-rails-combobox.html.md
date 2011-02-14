@@ -27,7 +27,7 @@ end
 
 If we were using just Rails without Ext JS, we would probably have the <code>select</code> form helper build a HTML select field ending up with this sort of code in our view:
 
-<% code 'html' do %>
+<% code 'rhtml' do %>
 <%%= select :post, :category_id,
        Category.find(:all).collect {|c| [ c.name, c.id ] },
        { :include_blank => true } %>
@@ -50,7 +50,7 @@ To turn above select field into a <code>Ext.form.ComboBox</code> we can use this
 
 A complete _form_items.html.erb partial (as used with the Ext Scaffold Generator) would then look like this:
 
-<% code 'html' do %>
+<% code 'rhtml' do %>
 <%%= select :post, :category_id,
        Category.find(:all).collect {|c| [ c.name, c.id ] },
        { :include_blank => true } %>
