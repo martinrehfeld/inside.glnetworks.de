@@ -8,6 +8,7 @@ sass_dir     = 'content/stylesheets'
 css_dir      = 'output/stylesheets'
 images_dir   = 'output/images'
 http_images_path = '/images'
+sass_options = { :style => :compressed }
 asset_cache_buster do |http_path, real_path|
   if File.exists?(real_path)
     File.mtime(real_path).strftime("%s")

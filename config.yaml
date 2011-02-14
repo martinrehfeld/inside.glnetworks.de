@@ -42,7 +42,7 @@ data_sources:
 
 deploy:
   default:
-    bucket: inside.glnetworks.de
+    live_project: inside.glnetworks.de-live
 
 base_url: http://inside.glnetworks.de
 
