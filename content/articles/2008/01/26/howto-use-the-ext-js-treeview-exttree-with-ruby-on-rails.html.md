@@ -91,7 +91,7 @@ After starting <code>script/server</code> we can now fire up our browser and req
 
 Now that we have the complete backend code in place, we just need to put some Ext Javascript into categories/index.html.erb to try the tree live:
 
-<% code 'ruby' do %>
+<% code 'html' do %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
