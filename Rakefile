@@ -32,14 +32,14 @@ task :commit do
 end
 
 desc "Publish /output (commit, sync, tag and push)"
-task :publish => [:compile, :commit, :'deploy:s3'] do
+task :publish => [:compile, :commit, :'deploy:heroku'] do
   sh 'git tag -f "live"'
   sh 'git push'
 end
 
 namespace :deploy do
-  desc "Sync compiled /output to S3"
-  task :s3 do
+  desc "Push inside.glnetworks.de-live to heroku"
+  task :heroku do
     site = Nanoc3::Site.new('.')
     if site.nil?
       $stderr.puts 'The current working directory does not seem to be a ' +
@@ -47,6 +47,10 @@ namespace :deploy do
       exit 1
     end
 
-    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --exclude='.DS_Store' --delete-removed sync output/ s3://#{site.config[:deploy]['default']['bucket']}"
+    sh "cd '../#{config[:deploy]['default']['live_project']}' && git add ."
+    unless `cd '../#{config[:deploy]['default']['live_project']}' && git status` =~ /^nothing to commit/
+      sh "cd '../#{config[:deploy]['default']['live_project']}' && git commit -m 'content build #{Time.now}'"
+      sh "cd '../#{config[:deploy]['default']['live_project']}' && git push heroku"
+    end
   end
 end
