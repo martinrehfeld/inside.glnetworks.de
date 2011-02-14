@@ -3,7 +3,6 @@ Issues & Tasks
 
 TODO
 ----
-* avoid duplicate meta descriptions (+keywords?)
 * make it personal -- this is my blog after all
 * Contact page (get in touch)
 * improve styling (focus on header)
@@ -30,6 +29,7 @@ Can do
 Done
 ----
 * improve mobile style
+* avoid duplicate meta descriptions (+keywords?)
 * Feedburner integration
   ok: just set new feed source on Feedburner to /feed/atom.xml
 * provide URL schema compatible with my legagy content (/YYYY/MM/DD/<slug>/)
