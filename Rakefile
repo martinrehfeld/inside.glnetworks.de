@@ -46,11 +46,12 @@ namespace :deploy do
                    'valid/complete nanoc site directory; aborting.'
       exit 1
     end
+    live_dir = File.expand_path("../#{site.config[:deploy]['default']['live_project']}")
 
-    sh "cd '../#{config[:deploy]['default']['live_project']}' && git add ."
-    unless `cd '../#{config[:deploy]['default']['live_project']}' && git status` =~ /^nothing to commit/
-      sh "cd '../#{config[:deploy]['default']['live_project']}' && git commit -m 'content build #{Time.now}'"
-      sh "cd '../#{config[:deploy]['default']['live_project']}' && git push heroku"
+    sh "cd '#{live_dir}' && git add ."
+    unless `cd '#{live_dir}' && git status` =~ /^nothing to commit/
+      sh "cd '#{live_dir}' && git commit -m 'content build #{Time.now}'"
+      sh "cd '#{live_dir}' && git push heroku"
     end
   end
 end
