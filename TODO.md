@@ -7,7 +7,6 @@ TODO
 * make it personal -- this is my blog after all
 * Contact page (get in touch)
 * improve styling (focus on header)
-* improve mobile style
 
 Can do
 ------
@@ -30,6 +29,7 @@ Can do
 
 Done
 ----
+* improve mobile style
 * Feedburner integration
   ok: just set new feed source on Feedburner to /feed/atom.xml
 * provide URL schema compatible with my legagy content (/YYYY/MM/DD/<slug>/)
