@@ -96,4 +96,4 @@ end
 
 ### Layout rules
 
-layout '*', :haml, :attr_wrapper => '"', :ugly => true # :ugly is essential to have code blocks not further indented
+layout '*', :haml, :attr_wrapper => '"', :ugly => true, :format => :html5 # :ugly is essential to have code blocks not further indented
