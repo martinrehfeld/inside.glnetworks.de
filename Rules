@@ -74,6 +74,10 @@ route '/code/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
+route '/404/' do
+  item.identifier.chop + '.html'
+end
+
 route '/articles/*/' do
   if item.binary?
     item.identifier.sub(/^\/articles/,'').chop + '.' + item[:extension]
